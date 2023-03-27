@@ -1,0 +1,148 @@
+---
+title: \textbf{Um estudo de caso de análise de comportamento animal usando GAMLSS}
+#subtitle: R, história, pacotes, RStudio e primeiro contato
+author: Prof. Me. Lineu Alberto Cavazani de Freitas
+date: ""
+institute: |
+ | Departamento de Estatística
+ | Laboratório de Estatística e Geoinformação
+graphics: yes
+classoption: [serif, professionalfont, usenames, dvipsnames, aspectratio = 169]
+ #bibliography: references.bib
+ #csl: ../config/ABNT_UFPR_2011-Mendeley.csl
+output:
+  beamer_presentation:
+    fig_caption: yes
+    fig_crop: no
+    highlight: haddock
+    includes:
+      # NOTE: background, color theme and logos are defined in `preamble-rmd-settings.tex`.
+      in_header: [config/preamble-settings-rmd.tex, config/preamble-global.tex, config/preamble-chunk-rmd.tex, config/preamble-commands.tex]
+    keep_tex: yes
+# http://rmarkdown.rstudio.com/beamer_presentation_format.html
+---
+
+```{r, include = FALSE}
+source("./config/setup.R")
+```
+
+# Introdução
+
+## Estudos de comportamento animal
+
+ - O \textbf{comportamento de um animal} reflete seu \textbf{estado emocionais}.
+ 
+ - Estudos de comportamento animal forneceram informações úteis sobre o bem-estar animal em uma ampla variedade de situações.
+
+ - Tais estudos costumam produzir \textbf{dados complexos} e \textbf{não estruturados}, registrados a partir de áudios, imagens e vídeos, entre outros.
+
+ - Estes dados não estruturados, quando tratados, são fontes de \textbf{diversas variáveis aleatórias}.
+ 
+## Estudos de comportamento animal
+
+Por exemplo: 
+
+ - Considere que a movimentação de cabeça de um animal em contato com um ser humano reflete algum estado emocional.
+
+ - Para avaliar a movimentação de cabeça podemos:
+
+      1. Verificar se cada animal apresentou ou não o comportamento específico, configurando um \textbf{resultado binário}. 
+
+      2. Avaliar o número de vezes que o comportamento foi repetido, gerando uma \textbf{variável de contagem}. 
+
+      3. Avaliar a proporção do tempo em que o animal realizou o movimento, gerando uma \textbf{variável contínua}. 
+
+      4. Registrar o tempo até a ocorrência de um evento, gerando um \textbf{dado censurado}. 
+
+## Estudos de comportamento animal
+
+ - Estudos de comportamento animal costumam apresentar diversos outros fatores que devem ser levados em consideração na análise estatística. 
+
+\beginAHalfColumn
+
+  - Unidades agrupadas (ninhadas, rebanhos). 
+
+  - Estudos longitudinais (cada animal é avaliado em diferentes momentos).
+
+  - Estudos espaciais (coordenadas espaciais são relevantes para a análise).
+
+\endColumns
+\beginAHalfColumn
+
+  - Relações não lineares.
+      
+  - Heterocedasticidade.
+      
+  - Assimetria e/ou curtose.
+      
+  - Super ou subdispersão.
+      
+  - Inflação zeros.
+
+\endColumns
+
+## Modelos de regressão
+
+\beginAHalfColumn
+
+ - Devido a estas características a análise estatística de dados de comportamento animal requer \textbf{modelos flexíveis}, capazes de lidar com as características dos dados.
+ 
+ - Em geral, são usados \textbf{modelos de regressão}.
+
+\endColumns
+\beginAHalfColumn
+
+
+
+\endColumns
+
+## Modelos de regressão
+
+ - \textbf{Fenômeno aleatório}: situação na qual diferentes observações podem fornecer diferentes desfechos. 
+  
+ - \textbf{Variáveis aleatórias}: mecanismos que associam um valor numérico a cada desfecho possível do fenômeno. 
+  
+ - \textbf{Distribuições de probabilidade}: modelos probabilísticos que buscam descrever as probabilidades de variáveis aleatórias.
+
+## Modelos de regressão
+
+ - Na prática, podemos buscar uma \textbf{distribuição de probabilidades} que melhor descreva o fenômeno de interesse. 
+  
+ - Estas \textbf{distribuições} são descritas por \textbf{funções}. 
+  
+ - Estas funções possuem \textbf{parâmetros} que controlam aspectos da distribuição.
+  
+ - Os parâmetros são \textbf{quantidades desconhecidas, estimadas} por meio dos dados.
+
+## Modelos de regressão
+
+ - Em regressão \textbf{modelamos parâmetros} das distribuições como uma função de \textbf{variáveis explicativas}.
+  
+ - O parâmetro de interesse é decomposto em uma combinação linear de novos parâmetros que associam as \textbf{variáveis explicativas} à \textbf{variável resposta}.
+  
+ - Obtém-se uma \textbf{equação que explique a relação} entre as variáveis. 
+ 
+## Modelos de regressão
+
+```{r, echo = FALSE, out.width = "11cm"}
+knitr::include_graphics("./img/modelos_regressao.pdf")
+```
+
+## Modelos de regressão
+
+ 1. \textbf{Definição do problema.}
+    - Qual o fenômeno aleatório de interesse?
+    - Que fatores externos podem afetar este fenômeno?
+
+ 2. \textbf{Análise dos dados via regressão.}
+    - Distribuição de probabilidade.
+    - Especificação do modelo.
+    - Obtenção dos parâmetros (ajuste).
+    - Diagnóstico.
+      
+ 3. \textbf{Interpretação dos resultados.}
+    - Quais os fatores externos apresentam ou não impacto sobre o fenômeno.
+    - Qual a dimensão desse impacto.
+    
+## GAMLSS
+

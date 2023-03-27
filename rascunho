@@ -1,0 +1,42 @@
+
+Generalized additive models for location, scale and shape (GAMLSS) configure a general framework for univariate regression models, known to be widely flexible due to the large number of available probability distributions, allowing to analyze data with different levels of skewness and kurtosis, zero inflation, mixed (continuous and discrete) behavior, among others. In GAMLSS we can model each distribution parameter by including covariates, random effects and smoothers, unlike other regression methodologies usually considered in animal behavior as, for example, linear and generalized linear models; linear and generalized linear mixed models; and generalized additive models, that only allow modeling a location (mean) parameter. By this way, several of the related constraints present in animal behavior data may be properly addressed. GAMLSS also allows the use of nonparametric as well as normal random effects models. Random effects are a suitable tool to deal with multilevel data and allow to properly accommodate the correlation structure resulting from repeated measure designs. Smoothers, on the other hand, are useful in modeling nonlinear relationships between the distribution parameters and continuous covariates. Some important smoothing additive term functions available in GAMLSS are based on P-splines, cubic splines, and local regression. For details regarding smoothing terms in GAMLSS, see Stasinopoulos et al. (2017).
+
+This study aimed to explore the potential of GAMLSS methodology in animal
+behavior analysis. Therefore, based on data from a study on sheep behavior we seek
+to investigate whether social context, through the use of physical grids, influences
+behavioral responses of sheep to brushing. We have also investigated whether social
+separation effects are influenced by emotional reactivity, by assessing genetically
+selected sheep for low versus high social motivation. Thus, 20 sheep belonging to
+two different genetic lineages were used. Amongst the main information resulting
+from this experiment we may point out two types of variables: the number of
+posture changes and the proportion (or percentage) of time that each posture
+was expressed. A variety of different postures were recorded, such as ear postures
+(raised-up, horizontal, and asymmetric); eyes posture (closed, half-closed and open);
+and feeding behavior (eating, ruminating, not eating or ruminating), among others.
+
+For the sake of illustration, we have considered here one variable of each type:
+the number of ear posture changes and the proportion of time performing the
+horizontal ear posture. Amongst the behavioral indicators used to assess emotions
+in animals, ear behavior and ear posture changes have provided valuable data
+on how animal welfare can be improved (REEFMANN et al., 2009; BOISSY et
+al., 2011;TAMIOSO et al., 2017). Sheep submitted to positive events show high
+proportions of horizontal ear postures and fewer ear posture changes than sheep
+in negative situations. Therefore, through this research, it is expected to better
+understand sheep perception toward a presumed positive event, such as brushing,
+using ear postures as a behavioural indicator. A number of constraints we have
+pointed out in the analysis of behavioral data can be found in these data, such that
+they were used here as motivations of the usefulness of the GAMLSS framework in
+this context. It is worth noting that the proposed models can be easily extended to
+the other behavioral variables, such that analogous procedures can be adopted, for
+example, for the number of head posture changes, or the proportion of time that a
+particular body posture is expressed.
+
+The remaining of this work is organized as follows. Section 2 describes the case
+study. Section 3 introduces the GAMLSS methodology. The analysis of count data,
+referring to the number of posture changes, is explained and have the corresponding
+results are presented in Section 4, while Section 5 presents the analysis of the
+variable based on a proportion of time. Finally, Section 6 ends this work with our
+concluding remarks.
+
+
+
