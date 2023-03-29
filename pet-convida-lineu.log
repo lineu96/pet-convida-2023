@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.10)  25 MAR 2023 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.10)  29 MAR 2023 11:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,6 +1328,272 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [10
 
  <./img/modelos_regressao.pdf>]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 820.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[11
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 837.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[12
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 855.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[13
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 891.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[14
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 907.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[15
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 953.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[16
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 994.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[17
+
+]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 997.
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[18
+
+]
+<./img/animais.png, id=173, 1951.29pt x 1463.4675pt>
+File: ./img/animais.png Graphic file (type png)
+<use ./img/animais.png>
+Package pdftex.def Info: ./img/animais.png  used on input line 1026.
+(pdftex.def)             Requested size: 148.63304pt x 111.4748pt.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
+ line 1026.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
+(Font)              scaled to size 9.0pt on input line 1026.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1026.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[19
+
+ <./img/animais.png>]
+<./img/animais2.png, id=184, 1951.29pt x 1463.4675pt>
+File: ./img/animais2.png Graphic file (type png)
+<use ./img/animais2.png>
+Package pdftex.def Info: ./img/animais2.png  used on input line 1038.
+(pdftex.def)             Requested size: 259.98874pt x 194.99156pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1038.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[20
+
+ <./img/animais2.png>]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1055.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[21
+
+]
+<./img/se1_se3.png, id=201, 465.99094pt x 249.93375pt>
+File: ./img/se1_se3.png Graphic file (type png)
+<use ./img/se1_se3.png>
+Package pdftex.def Info: ./img/se1_se3.png  used on input line 1067.
+(pdftex.def)             Requested size: 303.35269pt x 162.7029pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1067.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[22
+
+ <./img/se1_se3.png>]
+<./img/se2.png, id=211, 563.85657pt x 250.68657pt>
+File: ./img/se2.png Graphic file (type png)
+<use ./img/se2.png>
+Package pdftex.def Info: ./img/se2.png  used on input line 1079.
+(pdftex.def)             Requested size: 303.34232pt x 134.8638pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1079.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[23
+
+ <./img/se2.png>]
+<./img/isol.png, id=221, 1951.29pt x 1463.4675pt>
+File: ./img/isol.png Graphic file (type png)
+<use ./img/isol.png>
+Package pdftex.def Info: ./img/isol.png  used on input line 1091.
+(pdftex.def)             Requested size: 259.98874pt x 194.99156pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1091.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[24
+
+ <./img/isol.png>]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1108.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[25
+
+]
+<./img/escov.png, id=239, 1951.29pt x 1463.4675pt>
+File: ./img/escov.png Graphic file (type png)
+<use ./img/escov.png>
+Package pdftex.def Info: ./img/escov.png  used on input line 1120.
+(pdftex.def)             Requested size: 238.3131pt x 178.73482pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1120.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[26
+
+ <./img/escov.png>]
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1148.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[27
+
+]
+<./img/se_mo.png, id=256, 556.32843pt x 301.125pt>
+File: ./img/se_mo.png Graphic file (type png)
+<use ./img/se_mo.png>
+Package pdftex.def Info: ./img/se_mo.png  used on input line 1168.
+(pdftex.def)             Requested size: 238.34221pt x 129.00795pt.
+File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
+<use ./config/ufpr-fundo-16x9.jpg>
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1168.
+
+(pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
+
+Overfull \hbox (1.68091pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[28
+
+ <./img/se_mo.png>]
 \tf@nav=\write6
 \openout6 = `pet-convida-lineu.nav'.
 
@@ -1339,11 +1605,11 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 
 (./pet-convida-lineu.aux) ) 
 Here is how much of TeX's memory you used:
- 32675 strings out of 478287
- 663763 string characters out of 5849289
- 932235 words of memory out of 5000000
- 50055 multiletter control sequences out of 15000+600000
- 678572 words of font info for 139 fonts, out of 8000000 for 9000
+ 32946 strings out of 478287
+ 668500 string characters out of 5849289
+ 934294 words of memory out of 5000000
+ 50237 multiletter control sequences out of 15000+600000
+ 695343 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,117p,1014b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/
@@ -1352,10 +1618,10 @@ Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Light.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pet-convida-lineu.pdf (10 pages, 349447 bytes).
+Output written on pet-convida-lineu.pdf (28 pages, 41170308 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 45122 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 49261 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -777,4 +777,394 @@ Por exemplo:
 \begin{center}\includegraphics[width=11cm]{./img/modelos_regressao} \end{center}
 \end{frame}
 
+\begin{frame}{Modelos de regressão}
+\protect\hypertarget{modelos-de-regressuxe3o-5}{}
+\begin{enumerate}
+\tightlist
+\item
+  \textbf{Definição do problema.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Qual o fenômeno aleatório de interesse?
+  \item
+    Que fatores externos podem afetar este fenômeno?
+  \end{itemize}
+\item
+  \textbf{Análise dos dados via regressão.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Distribuição de probabilidade.
+  \item
+    Especificação do modelo.
+  \item
+    Obtenção dos parâmetros (ajuste).
+  \item
+    Diagnóstico.
+  \end{itemize}
+\item
+  \textbf{Interpretação dos resultados.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Quais os fatores externos apresentam ou não impacto sobre o
+    fenômeno.
+  \item
+    Qual a dimensão desse impacto.
+  \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{GAMLSS}
+\protect\hypertarget{gamlss}{}
+\begin{itemize}
+\item
+  GAMLSS:
+  \textbf{generalized additive models for location, scale and shape}.
+\item
+  É um \textbf{framework} para ajuste de modelos de regressão.
+\item
+  Dispõe de um grande conjunto de \textbf{distribuições}.
+\item
+  Permite modelar cada parâmetro de distribuição incluindo
+  \textbf{covariáveis}, \textbf{efeitos aleatórios} e
+  \textbf{suavizadores}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{GAMLSS}
+\protect\hypertarget{gamlss-1}{}
+\begin{itemize}
+\item
+  Desta forma, várias das restrições relacionadas aos dados de
+  comportamento animal podem ser adequadamente tratadas.
+\item
+  Os \textbf{efeitos aleatórios} são uma ferramenta adequada para lidar
+  com dados multiníveis e permitem acomodar adequadamente a
+  \textbf{estrutura de correlação} resultante de projetos de medidas
+  repetidas.
+\item
+  Os \textbf{suavizadores} são úteis na modelagem de
+  \textbf{relacionamentos não lineares} entre os parâmetros de
+  distribuição e as covariáveis contínuas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Pontos vistos até aqui}
+\protect\hypertarget{pontos-vistos-atuxe9-aqui}{}
+\beginAHalfColumn
+
+\begin{itemize}
+\tightlist
+\item
+  Dados de comportamento animal.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Objetivo.
+  \item
+    Tipos de resposta.
+  \item
+    Especificidades dos dados.
+  \end{itemize}
+\item
+  Modelos de regressão.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ideia geral.
+  \item
+    GAMLSS.
+  \end{itemize}
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+\endColumns
+\end{frame}
+
+\begin{frame}{Objetivo}
+\protect\hypertarget{objetivo}{}
+\begin{itemize}
+\item
+  O estudo teve como objetivo explorar o potencial do \textbf{GAMLSS} na
+  \textbf{análise de comportamento animal}.
+\item
+  Os dados que motivaram o estudo é de \textbf{comportamento de ovinos}
+  em que buscou-se avaliar se \textbf{intervenção humana} e
+  \textbf{isolamento social} influenciam o comportamento dos animais.
+\item
+  A amostra era composta por \textbf{20 ovinos} pertencentes a
+  \textbf{duas linhagens genéticas} diferentes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Objetivo}
+\protect\hypertarget{objetivo-1}{}
+\beginAHalfColumn
+
+\begin{itemize}
+\tightlist
+\item
+  Dentre as principais informações resultantes deste experimento podemos
+  destacar dois tipos de variáveis:
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    O \textbf{número de mudanças} posturais.
+  \item
+    A \textbf{proporção} (ou percentual) de tempo que cada postura foi
+    expressa.
+  \end{enumerate}
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+\begin{itemize}
+\tightlist
+\item
+  Uma série de respostas foi observada, como
+
+  \begin{enumerate}
+  \tightlist
+  \item
+    Posturas de \textbf{orelha} (levantadas, horizontais e
+    assimétricas).
+  \item
+    Postura dos \textbf{olhos} (fechados, semicerrados e abertos).
+  \item
+    Comportamento \textbf{alimentar} (comendo, ruminando, não comendo ou
+    ruminando).
+  \end{enumerate}
+
+  entre outros.
+\end{itemize}
+
+\endColumns
+\end{frame}
+
+\begin{frame}{Objetivo}
+\protect\hypertarget{objetivo-2}{}
+\beginAHalfColumn
+
+\begin{itemize}
+\tightlist
+\item
+  A título de ilustração, consideramos duas variáveis de tipos
+  distintos:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O \textbf{número de mudanças} de postura de orelha.
+  \item
+    A \textbf{proporção} de tempo realizando a postura de orelha
+    horizontal.
+  \end{itemize}
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+\begin{itemize}
+\tightlist
+\item
+  Ovelhas submetidas a eventos positivos:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Apresentam altas proporções de posturas de orelha horizontais.
+  \item
+    Menos alterações de postura de orelha do que ovelhas em situações
+    negativas.
+  \end{itemize}
+\end{itemize}
+
+\endColumns
+\end{frame}
+
+\hypertarget{estudo-de-caso}{%
+\section{Estudo de caso}\label{estudo-de-caso}}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-1}{}
+\beginAHalfColumn
+
+\begin{itemize}
+\item
+  Foram observadas \textbf{20 ovelhas} pertencentes a
+  \textbf{2 linhagens genéticas}, que foram
+  \textbf{submetidas à escovação} por um humano que lhes era familiar.
+\item
+  Verificou-se o número de alterações de postura e as proporções de
+  tempo em que os animais permaneciam em determinadas posturas.
+\end{itemize}
+
+\endColumns
+\beginAHalfColumn
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{./img/animais} 
+
+}
+
+\caption{Fotografia dos animais sob análise.}\label{fig:unnamed-chunk-3}
+\end{figure}
+
+\endColumns
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-2}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{./img/animais2} 
+
+}
+
+\caption{Fotografia dos animais sob análise.}\label{fig:unnamed-chunk-4}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-3}{}
+O experimento foi conduzido em \textbf{três sessões experimentais}:
+
+\begin{enumerate}
+\item
+  Na primeira havia uma grade de metal separando o animal testado dos
+  demais animais, \textbf{sem distância} entre eles.
+\item
+  Na segunda havia duas grades de metal separando o animal testado dos
+  demais animais a uma \textbf{distância de 1,7 m}.
+\item
+  Na terceira sessão os animais voltaram a ser separados por apenas uma
+  grade, \textbf{sem distanciamento} dos demais animais.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-4}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{./img/se1_se3} 
+
+}
+
+\caption{Esquema sessões 1 e 3 (sem isolamento).}\label{fig:unnamed-chunk-5}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-5}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{./img/se2} 
+
+}
+
+\caption{Esquema sessão 2 (com isolamento).}\label{fig:unnamed-chunk-6}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-6}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{./img/isol} 
+
+}
+
+\caption{Foto sessão.}\label{fig:unnamed-chunk-7}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-7}{}
+Em cada sessão, as ovelhas foram observadas em \textbf{3 momentos}
+distintos:
+
+\begin{enumerate}
+\item
+  Fase de \textbf{pré escovação}, com duração de 2 minutos e 30
+  segundos.
+\item
+  Fase de \textbf{escovação}, com duração de 3 minutos.
+\item
+  Fase de \textbf{pós escovação}, com duração de 2 minutos e 30
+  segundos.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-8}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.55\linewidth]{./img/escov} 
+
+}
+
+\caption{Fotografia animal sob intervenção humana (escovação).}\label{fig:unnamed-chunk-8}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-9}{}
+Temos \textbf{3 variáveis categóricas}:
+
+\begin{enumerate}
+\item
+  \textbf{Linhagem}: fator de 2 níveis que classifica os animais como
+  reativos (R+) ou não reativos (R-).
+\item
+  \textbf{Sessão}: fator de 3 níveis que indica a sessão experimental de
+  acordo com o isolamento social (sessões 1 e 3 sem isolamento, sessão 2
+  com isolamento).
+\item
+  \textbf{Momento}: fator de 3 níveis que indica se o animal está ou não
+  sob intervenção humana (antes, durante ou depois da intervenção).
+\end{enumerate}
+
+Temos \textbf{2 respostas} distintas:
+
+\begin{enumerate}
+\tightlist
+\item
+  Número de mudanças de postura de orelha.
+\item
+  Proporção do tempo com as orelhas em posição neutra.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Estudo de caso}
+\protect\hypertarget{estudo-de-caso-10}{}
+\begin{itemize}
+\item
+  Considerando as combinações entre as variáveis, \textbf{cada animal}
+  contribui com \textbf{9 medidas} ao conjunto de dados.
+\item
+  Portanto existe uma estrutura de medidas repetidas.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.55\linewidth]{./img/se_mo} 
+
+}
+
+\caption{Combinação entre sessão e momento.}\label{fig:unnamed-chunk-9}
+\end{figure}
+\end{frame}
+
 \end{document}
