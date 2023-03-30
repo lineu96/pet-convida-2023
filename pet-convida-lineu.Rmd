@@ -319,3 +319,169 @@ Temos \textbf{2 respostas} distintas:
 ```{r, echo = FALSE, out.width='55%', fig.align='center', fig.cap="Combinação entre sessão e momento."}
 knitr::include_graphics("./img/se_mo.png")
 ```
+
+# GAMLSS
+
+## GAMLSS
+
+Para definição de um GAMLSS considere:
+
+ - Um conjunto de observações $Y_i, \ i=1,2,\ldots,n$. 
+ - As observações seguem função (densidade) de probabilidade $f_Y(y_i|\theta)$ parametrizada por $\theta = (\theta_{1}, ..., \theta_{p})^T$. 
+ - $\theta$ é um vetor de $p$ até 4 parâmetros distribucionais denotados por $(\mu, \sigma, \nu, \tau)^T$ se $p=4$.
+
+ - Geralmente (mas não necessariamente) $\mu$ e $\sigma$ representam os parâmetros de locação e dispersão, enquanto que $\nu$ and $\tau$ representam parâmetros de forma.
+ 
+## GAMLSS
+
+\begin{equation}\label{eq.gamlss}
+	\begin{aligned}
+		g_{k}(\theta_{k}) = \eta_{k} = X_{k} \beta_{k} + \sum_{j=1}^{J_{k}} Z_{jk} \gamma_{jk},\ k=1,2,3,4,
+	\end{aligned}
+\end{equation}
+
+- $g_{k}(\cdot)$ são funções de ligação que relacionam o $k$-ésimo parâmetro distribucional ao preditor $\eta_{k}$. 
+ 
+ - $\beta_{k} = (\beta_{1k},\beta_{2k},\ldots,\beta_{J_{K}^{'}k})^T$ é um vetor de parâmetros de regressão de dimensão $J_{K}^{'}$, 
+ 
+ - $X_{k}$ e $Z_{jk}$ são matrizes de delineamento de ordem $n \times J_{k}^{'}$ e $n \times q_{jk}$, respectivamente. 
+ 
+ - $\gamma_{jk}$ é um vetor aleatório de dimensão $q_{jk}$ para os quais assume-se que $\gamma_{jk} \sim \text{N}_{q_{jk}}(0, G_{jk}^{-1})$.
+ 
+ - $G_{jk}^{-1}$  é a inversa generalizada da matriz simétrica $G_{jk} = G_{jk}(\lambda_{jk})$ de ordem $q_{jk} \times q_{jk}$ 
+ 
+  - $\lambda_{jk}$ é um vetor de hiperparâmetros.
+  
+## GAMLSS 
+
+ - Os parâmetros de regressão ($\beta_{k}$) e os efeitos aleatórios ($\gamma_{jk}$) são usualmente estimados na maximização de uma log-verossimilhança penalizada ($l_p$), dada por
+
+\begin{equation}\label{eq.loglik}
+	\begin{aligned}
+		l_p = l-\frac{1}{2} \sum_{k=1}^{p} \sum_{j=1}^{J_k} \lambda_{jk} \gamma_{jk}^{'} G_{jk} \gamma_{jk},
+	\end{aligned}
+\end{equation}
+
+ - $l = \sum_{i=1}^{n} \log(f(y_i|\theta))$ representa a log-verossimilhança. 
+
+ - A log-verossimilhança penalizada se reduz à usual log-verossimilhança quando não há efeitos aleatórios ou termos suavizadores no modelo.
+ 
+# Aplicação
+
+## Procedimento de análise
+
+Respostas
+
+ 1. Número de mudanças de postura de orelha.
+ 2. Proporção do tempo com as orelhas em posição neutra.
+
+Procedimento para o número de mudanças de postura de orelha:
+
+1. Seleção de distribuições compatíveis com o problema.
+2. Ajuste de modelos com o mesmo preditor para todas as distribuições.
+3. Seleção do modelos via medidas de qualidade de ajuste OU análise gráfica.
+4. Busca do menor modelo possível que não difirisse do modelo inicial.
+5. Interpretação dos resultados. 
+
+# Número de mudanças de postura de orelha
+
+## Número de mudanças de postura de orelha
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória do número de mudanças de postura de orelha."}
+knitr::include_graphics("./img/count.pdf")
+```
+
+## Distribuições 
+
+ - Poisson (PO)
+ - Negative binomial distribution (NBI)
+ - Zero inflated Poisson distribution (ZIP)
+ - Zero inflated negative binomial distribution (ZINBI)
+ - Zero adjusted Poisson distribution (ZAP)
+ - Zero adjusted negative binomial distribution (ZANBI)
+
+## Preditor
+
+ - Para cada distribuição os modelos foram especificados com os efeitos fixos de sessão, momento, linhagem e as interações duas a duas.
+
+ - Adicionalmente foram incluídos 2 efeitos aleatórios: um a nível de animal e outro a nível de animal dentro de sessão.
+
+ - Os efeitos aleatórios foram usados devido à necessidade de incorporar as correlações causadas pela estrutura de medidas repetidas (9 medidas por animal).
+
+ - 
+
+## 
+
+\begin{table}[h]
+	\centering
+	\caption{Goodness-of-fit measures for the fitted models with different probability distributions.}
+	\begin{tabular}{lcccc}
+		\hline
+		{\color[HTML]{000000} Model} & {\color[HTML]{000000} Likelihood} & {\color[HTML]{000000} Degrees of Freedom} & {\color[HTML]{000000} AIC}     \\ \hline
+		{\color[HTML]{000000} \text{PO}}    & {\color[HTML]{000000} -547.34}    & {\color[HTML]{000000} 48.17}     & {\color[HTML]{000000} 1191.03} \\
+		{\color[HTML]{000000} \text{NBI}}   & {\color[HTML]{000000} -479.78}    & {\color[HTML]{000000} 47.59}     & {\color[HTML]{000000} 1054.74} \\
+		{\color[HTML]{000000} \text{ZIP}}   & {\color[HTML]{000000} -496.69}    & {\color[HTML]{000000} 63.70}     & {\color[HTML]{000000} 1120.78} \\
+		{\color[HTML]{000000} \text{ZINBI}} & {\color[HTML]{000000} -462.66}    & {\color[HTML]{000000} 54.37}     & {\color[HTML]{000000} 1034.06} \\
+		{\color[HTML]{000000} \text{ZAP}}   & {\color[HTML]{000000} -498.24}    & {\color[HTML]{000000} 63.34}     & {\color[HTML]{000000} 1123.16} \\
+		{\color[HTML]{000000} \text{ZANBI}} & {\color[HTML]{000000} -463.16}    & {\color[HTML]{000000} 55.02}     & {\color[HTML]{000000} 1036.36} \\ \hline
+	\end{tabular}
+	\label{tab:tab1}
+\end{table}
+
+##
+
+\begin{table}[h]
+	\centering
+	\caption{Goodness-of-fit measures and LRTs for the nested \text{ZANBI} models.}
+	\begin{tabular}{lccccc}
+		\hline
+		{\color[HTML]{000000} Model} & {\color[HTML]{000000} Likelihood} & {\color[HTML]{000000} Degrees of Freedom} & {\color[HTML]{000000} AIC}     & {\color[HTML]{000000} P-value}         \\ \hline
+		{\color[HTML]{000000} Fit 1} & {\color[HTML]{000000} -463.16}    & {\color[HTML]{000000} 55.02}              & {\color[HTML]{000000} 1036.36} & {\color[HTML]{000000} -}               \\
+		{\color[HTML]{000000} Fit 2} & {\color[HTML]{000000} -463.86}    & {\color[HTML]{000000} 47.48}              & {\color[HTML]{000000} 1022.67} & {\color[HTML]{000000} 0.991}            \\
+		{\color[HTML]{000000} Fit 3} & {\color[HTML]{000000} -476.15}    & {\color[HTML]{000000} 42.48}              & {\color[HTML]{000000} 1037.25} & {\color[HTML]{000000} 0.014} \\ \hline
+	\end{tabular}
+	\label{tab:tab2}
+\end{table}
+
+## 
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+knitr::include_graphics("./img/mzanbi.png")
+```
+
+
+# Proporção do tempo com as orelhas em posição neutra
+
+## Proporção do tempo com as orelhas em posição neutra
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+knitr::include_graphics("./img/prop.pdf")
+```
+
+##
+
+## 
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+knitr::include_graphics("./img/mbetas.png")
+```
+
+##
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+knitr::include_graphics("./img/interaction.png")
+```
+
+# Considerações finais
+
+## Considerações finais
+
+ - Neste trabalho exploramos a flexibilidade do GAMLSS na análise de dados de comportamento animal.
+
+ - Dois tipos de variáveis comuns a este tipo de estudo foram analisadas: um contagem e uma proporção.
+
+ - No estudo de caso o objetivo era investigar o efeito de isolamento social, intervenção humana e linhagem dos animais.
+
+ - Os dados apresentavam uma estrurura multinível, super-dispersão, inflação de zeros e efeito de covariáveis em mais de um parâmetro.
+
+ - Com GAMLSS foi possível analisar adequadamente ambas as respostas considerando todas as especificidades do problema e provendo resultados confiáveis e consistentes.
