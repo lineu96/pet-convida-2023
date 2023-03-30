@@ -52,8 +52,6 @@ Por exemplo:
 
       3. Avaliar a proporção do tempo em que o animal realizou o movimento, gerando uma \textbf{variável contínua}. 
 
-      4. Registrar o tempo até a ocorrência de um evento, gerando um \textbf{dado censurado}. 
-
 ## Estudos de comportamento animal
 
  - Estudos de comportamento animal costumam apresentar diversos outros fatores que devem ser levados em consideração na análise estatística. 
@@ -83,50 +81,20 @@ Por exemplo:
 
 ## Modelos de regressão
 
-\beginAHalfColumn
+\beginAThirdColumn
 
- - Devido a estas características a análise estatística de dados de comportamento animal requer \textbf{modelos flexíveis}, capazes de lidar com as características dos dados.
+ - A análise estatística de dados de comportamento animal requer \textbf{modelos flexíveis}.
  
  - Em geral, são usados \textbf{modelos de regressão}.
 
 \endColumns
-\beginAHalfColumn
-
-
-
-\endColumns
-
-## Modelos de regressão
-
- - \textbf{Fenômeno aleatório}: situação na qual diferentes observações podem fornecer diferentes desfechos. 
-  
- - \textbf{Variáveis aleatórias}: mecanismos que associam um valor numérico a cada desfecho possível do fenômeno. 
-  
- - \textbf{Distribuições de probabilidade}: modelos probabilísticos que buscam descrever as probabilidades de variáveis aleatórias.
-
-## Modelos de regressão
-
- - Na prática, podemos buscar uma \textbf{distribuição de probabilidades} que melhor descreva o fenômeno de interesse. 
-  
- - Estas \textbf{distribuições} são descritas por \textbf{funções}. 
-  
- - Estas funções possuem \textbf{parâmetros} que controlam aspectos da distribuição.
-  
- - Os parâmetros são \textbf{quantidades desconhecidas, estimadas} por meio dos dados.
-
-## Modelos de regressão
-
- - Em regressão \textbf{modelamos parâmetros} das distribuições como uma função de \textbf{variáveis explicativas}.
-  
- - O parâmetro de interesse é decomposto em uma combinação linear de novos parâmetros que associam as \textbf{variáveis explicativas} à \textbf{variável resposta}.
-  
- - Obtém-se uma \textbf{equação que explique a relação} entre as variáveis. 
- 
-## Modelos de regressão
+\beginTwoThirdsColumn
 
 ```{r, echo = FALSE, out.width = "11cm"}
 knitr::include_graphics("./img/modelos_regressao.pdf")
 ```
+
+\endColumns
 
 ## Modelos de regressão
 
@@ -146,6 +114,10 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
     
 ## GAMLSS
 
+ - Existem diversas classes de modelos de regressão, para os mais diversos fins.
+ 
+ - Uma destas classes é o GAMLSS.
+ 
  - GAMLSS: \textbf{generalized additive models for location, scale and shape}.
 
  - É um \textbf{framework} para ajuste de modelos de regressão. 
@@ -173,7 +145,8 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
  	
  - Modelos de regressão.
  	- Ideia geral.
-  	- GAMLSS.
+  - GAMLSS.
+  - Potencial do GAMLSS para problemas de comportamento animal.
 
 \endColumns
 \beginAHalfColumn
@@ -230,14 +203,14 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
 
 ## Estudo de caso
 
-\beginAHalfColumn
+\beginAThirdColumn
 
  - Foram observadas \textbf{20 ovelhas} pertencentes a \textbf{2 linhagens genéticas}, que foram \textbf{submetidas à escovação} por um humano que lhes era familiar.
  
  - Verificou-se o número de alterações de postura e as proporções de tempo em que os animais permaneciam em determinadas posturas.
 
 \endColumns
-\beginAHalfColumn
+\beginTwoThirdsColumn
 
 ```{r, echo = FALSE, out.width='70%', fig.align='center', fig.cap="Fotografia dos animais sob análise."}
 knitr::include_graphics("./img/animais.png")
@@ -393,12 +366,12 @@ knitr::include_graphics("./img/count.pdf")
 
 ## Distribuições 
 
- - Poisson (PO)
- - Negative binomial distribution (NBI)
- - Zero inflated Poisson distribution (ZIP)
- - Zero inflated negative binomial distribution (ZINBI)
- - Zero adjusted Poisson distribution (ZAP)
- - Zero adjusted negative binomial distribution (ZANBI)
+ - Poisson (PO).
+ - Negative binomial distribution (NBI).
+ - Zero inflated Poisson distribution (ZIP).
+ - Zero inflated negative binomial distribution (ZINBI).
+ - Zero adjusted Poisson distribution (ZAP).
+ - Zero adjusted negative binomial distribution (ZANBI).
 
 ## Preditor
 

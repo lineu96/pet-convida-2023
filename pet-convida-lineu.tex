@@ -658,9 +658,6 @@ Por exemplo:
   \item
     Avaliar a proporção do tempo em que o animal realizou o movimento,
     gerando uma \textbf{variável contínua}.
-  \item
-    Registrar o tempo até a ocorrência de um evento, gerando um
-    \textbf{dado censurado}.
   \end{enumerate}
 \end{itemize}
 \end{frame}
@@ -707,78 +704,26 @@ Por exemplo:
 
 \begin{frame}{Modelos de regressão}
 \protect\hypertarget{modelos-de-regressuxe3o}{}
-\beginAHalfColumn
+\beginAThirdColumn
 
 \begin{itemize}
 \item
-  Devido a estas características a análise estatística de dados de
-  comportamento animal requer \textbf{modelos flexíveis}, capazes de
-  lidar com as características dos dados.
+  A análise estatística de dados de comportamento animal requer
+  \textbf{modelos flexíveis}.
 \item
   Em geral, são usados \textbf{modelos de regressão}.
 \end{itemize}
 
 \endColumns
-\beginAHalfColumn
+\beginTwoThirdsColumn
+
+\begin{center}\includegraphics[width=11cm]{./img/modelos_regressao} \end{center}
 
 \endColumns
 \end{frame}
 
 \begin{frame}{Modelos de regressão}
 \protect\hypertarget{modelos-de-regressuxe3o-1}{}
-\begin{itemize}
-\item
-  \textbf{Fenômeno aleatório}: situação na qual diferentes observações
-  podem fornecer diferentes desfechos.
-\item
-  \textbf{Variáveis aleatórias}: mecanismos que associam um valor
-  numérico a cada desfecho possível do fenômeno.
-\item
-  \textbf{Distribuições de probabilidade}: modelos probabilísticos que
-  buscam descrever as probabilidades de variáveis aleatórias.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Modelos de regressão}
-\protect\hypertarget{modelos-de-regressuxe3o-2}{}
-\begin{itemize}
-\item
-  Na prática, podemos buscar uma \textbf{distribuição de probabilidades}
-  que melhor descreva o fenômeno de interesse.
-\item
-  Estas \textbf{distribuições} são descritas por \textbf{funções}.
-\item
-  Estas funções possuem \textbf{parâmetros} que controlam aspectos da
-  distribuição.
-\item
-  Os parâmetros são \textbf{quantidades desconhecidas, estimadas} por
-  meio dos dados.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Modelos de regressão}
-\protect\hypertarget{modelos-de-regressuxe3o-3}{}
-\begin{itemize}
-\item
-  Em regressão \textbf{modelamos parâmetros} das distribuições como uma
-  função de \textbf{variáveis explicativas}.
-\item
-  O parâmetro de interesse é decomposto em uma combinação linear de
-  novos parâmetros que associam as \textbf{variáveis explicativas} à
-  \textbf{variável resposta}.
-\item
-  Obtém-se uma \textbf{equação que explique a relação} entre as
-  variáveis.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Modelos de regressão}
-\protect\hypertarget{modelos-de-regressuxe3o-4}{}
-\begin{center}\includegraphics[width=11cm]{./img/modelos_regressao} \end{center}
-\end{frame}
-
-\begin{frame}{Modelos de regressão}
-\protect\hypertarget{modelos-de-regressuxe3o-5}{}
 \begin{enumerate}
 \tightlist
 \item
@@ -822,6 +767,11 @@ Por exemplo:
 \begin{frame}{GAMLSS}
 \protect\hypertarget{gamlss}{}
 \begin{itemize}
+\item
+  Existem diversas classes de modelos de regressão, para os mais
+  diversos fins.
+\item
+  Uma destas classes é o GAMLSS.
 \item
   GAMLSS:
   \textbf{generalized additive models for location, scale and shape}.
@@ -879,9 +829,11 @@ Por exemplo:
   \tightlist
   \item
     Ideia geral.
-  \item
-    GAMLSS.
   \end{itemize}
+\item
+  GAMLSS.
+\item
+  Potencial do GAMLSS para problemas de comportamento animal.
 \end{itemize}
 
 \endColumns
@@ -998,7 +950,7 @@ Por exemplo:
 
 \begin{frame}{Estudo de caso}
 \protect\hypertarget{estudo-de-caso-1}{}
-\beginAHalfColumn
+\beginAThirdColumn
 
 \begin{itemize}
 \item
@@ -1011,7 +963,7 @@ Por exemplo:
 \end{itemize}
 
 \endColumns
-\beginAHalfColumn
+\beginTwoThirdsColumn
 
 \begin{figure}
 
@@ -1301,17 +1253,17 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 \begin{itemize}
 \tightlist
 \item
-  Poisson (PO)
+  Poisson (PO).
 \item
-  Negative binomial distribution (NBI)
+  Negative binomial distribution (NBI).
 \item
-  Zero inflated Poisson distribution (ZIP)
+  Zero inflated Poisson distribution (ZIP).
 \item
-  Zero inflated negative binomial distribution (ZINBI)
+  Zero inflated negative binomial distribution (ZINBI).
 \item
-  Zero adjusted Poisson distribution (ZAP)
+  Zero adjusted Poisson distribution (ZAP).
 \item
-  Zero adjusted negative binomial distribution (ZANBI)
+  Zero adjusted negative binomial distribution (ZANBI).
 \end{itemize}
 \end{frame}
 
