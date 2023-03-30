@@ -1267,8 +1267,8 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Preditor}
-\protect\hypertarget{preditor}{}
+\begin{frame}{Preditores iniciais}
+\protect\hypertarget{preditores-iniciais}{}
 \begin{itemize}
 \item
   Para cada distribuição os modelos foram especificados com os efeitos
@@ -1281,46 +1281,116 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
   as correlações causadas pela estrutura de medidas repetidas (9 medidas
   por animal).
 \item
+  Nas distribuições com parâmetros associados à inflação de zeros foram
+  incluídos os efeitos fixos de sessão, momento e linhagem.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section}{}
-\begin{table}[h]
-    \centering
-    \caption{Goodness-of-fit measures for the fitted models with different probability distributions.}
-    \begin{tabular}{lcccc}
-        \hline
-        {\color[HTML]{000000} Model} & {\color[HTML]{000000} Likelihood} & {\color[HTML]{000000} Degrees of Freedom} & {\color[HTML]{000000} AIC}     \\ \hline
-        {\color[HTML]{000000} \text{PO}}    & {\color[HTML]{000000} -547.34}    & {\color[HTML]{000000} 48.17}     & {\color[HTML]{000000} 1191.03} \\
-        {\color[HTML]{000000} \text{NBI}}   & {\color[HTML]{000000} -479.78}    & {\color[HTML]{000000} 47.59}     & {\color[HTML]{000000} 1054.74} \\
-        {\color[HTML]{000000} \text{ZIP}}   & {\color[HTML]{000000} -496.69}    & {\color[HTML]{000000} 63.70}     & {\color[HTML]{000000} 1120.78} \\
-        {\color[HTML]{000000} \text{ZINBI}} & {\color[HTML]{000000} -462.66}    & {\color[HTML]{000000} 54.37}     & {\color[HTML]{000000} 1034.06} \\
-        {\color[HTML]{000000} \text{ZAP}}   & {\color[HTML]{000000} -498.24}    & {\color[HTML]{000000} 63.34}     & {\color[HTML]{000000} 1123.16} \\
-        {\color[HTML]{000000} \text{ZANBI}} & {\color[HTML]{000000} -463.16}    & {\color[HTML]{000000} 55.02}     & {\color[HTML]{000000} 1036.36} \\ \hline
-    \end{tabular}
-    \label{tab:tab1}
-\end{table}
+\begin{frame}{Seleção de modelos}
+\protect\hypertarget{seleuxe7uxe3o-de-modelos}{}
+\begin{itemize}
+\item
+  A distribuição foi selecionada por meio de medidas de qualidade de
+  ajuste.
+\item
+  A distribuição com melhor desempenho foi a ZANBI.
+\item
+  Buscou-se o menor modelo que não diferisse do original.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Testou-se a exclusão de variáveis explicativas do modelo.
+  \item
+    A comparação entre o modelo original e os reduzidos foi feito por
+    meio do teste da razão de verossimilhanças.
+  \end{itemize}
+\end{itemize}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-1}{}
-\begin{table}[h]
-    \centering
-    \caption{Goodness-of-fit measures and LRTs for the nested \text{ZANBI} models.}
-    \begin{tabular}{lccccc}
-        \hline
-        {\color[HTML]{000000} Model} & {\color[HTML]{000000} Likelihood} & {\color[HTML]{000000} Degrees of Freedom} & {\color[HTML]{000000} AIC}     & {\color[HTML]{000000} P-value}         \\ \hline
-        {\color[HTML]{000000} Fit 1} & {\color[HTML]{000000} -463.16}    & {\color[HTML]{000000} 55.02}              & {\color[HTML]{000000} 1036.36} & {\color[HTML]{000000} -}               \\
-        {\color[HTML]{000000} Fit 2} & {\color[HTML]{000000} -463.86}    & {\color[HTML]{000000} 47.48}              & {\color[HTML]{000000} 1022.67} & {\color[HTML]{000000} 0.991}            \\
-        {\color[HTML]{000000} Fit 3} & {\color[HTML]{000000} -476.15}    & {\color[HTML]{000000} 42.48}              & {\color[HTML]{000000} 1037.25} & {\color[HTML]{000000} 0.014} \\ \hline
-    \end{tabular}
-    \label{tab:tab2}
-\end{table}
+\begin{frame}{Modelo final}
+\protect\hypertarget{modelo-final}{}
+Considere \(Y_{ijkl}\) a variável resposta.
+
+\begin{itemize}
+\item
+  \(i\ (i=1,2,\ldots,20)\) representa o animal.
+\item
+  \(j\ (j=1,2,3)\) representa a sessão.
+\item
+  \(k\ (k=1,2,3)\) representa o momento.
+\item
+  \(l\) \((l=1,2)\) representa a linhagem.
+\end{itemize}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-2}{}
+\begin{frame}{Modelo final}
+\protect\hypertarget{modelo-final-1}{}
+\begin{equation}
+    \begin{aligned}
+        Y_{ijkl}|u_{j},v_{jk} \sim\,  ZANBI(\mu_{ijkl}, \sigma, \nu_{ikl}),
+    \end{aligned}
+    \label{eq.model.geral}
+\end{equation}
+
+\begin{itemize}
+\item
+  \(\mu_{ijkl}\) representa o parâmetro de locação da distribuição
+  condicional de \(y\)
+\item
+  \(\sigma\) representa o parâmetro de dispersão.
+\item
+  \(\nu_{ikl}\) está associado ao excesso de zeros.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Modelo final}
+\protect\hypertarget{modelo-final-2}{}
+\begin{equation}
+    \begin{aligned}
+        \log(\mu_{ijkl}) = \alpha^{(1)} + \beta_{j}^{(1)} + \gamma_{k}^{(1)} + \theta_{l}^{(1)} + u_{i} + v_{ik}
+    \end{aligned}
+    \label{eq.count.mu}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}
+        \text{logit}(\nu_{jkl}) = \alpha^{(2)} + \beta_{j}^{(2)} + \gamma_{k}^{(2)} + \theta_{l}^{(2)}
+    \end{aligned}
+    \label{eq.count.nu}
+\end{equation}
+
+\begin{itemize}
+\item
+  \(\alpha^{(1)}\) representa o intercepto.
+\item
+  \(\beta_{j}^{(1)}\) representa o efeito de sessão.
+\item
+  \(\gamma_{k}^{(1)}\) representa o efeito de momento.
+\item
+  \(\theta_{l}^{(1)}\) representa o efeito de linhagem.
+\item
+  \(u_{i}\) representa o efeito aleatório a nível de animal.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(u_{i} \sim \text{N}(0, \sigma^{2}_{U})\)
+  \end{itemize}
+\item
+  \(v_{ik}\) representa o efeito aleatório a nível de animal dentro de
+  sessão.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(v_{ik} \sim \text{N}(0, \sigma^{2}_{V})\)
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Diagnóstico}
+\protect\hypertarget{diagnuxf3stico}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/mzanbi} 
@@ -1329,6 +1399,30 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 
 \caption{Análise exploratória da proporção do tempo com as orelhas em posição neutra.}\label{fig:unnamed-chunk-11}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Estimativas}
+\protect\hypertarget{estimativas}{}
+\begin{table}[h]
+    \centering
+    \caption{Relative rates, odds ratios, confidence intervals and p-values for the final \text{ZANBI} model. Session 1, moment before brushing and lineage $R-$ are taken as reference categories}
+    \begin{tabular}{lcclccc}
+        \hline
+        & \multicolumn{3}{c}{$\mu$}                                                                                                         & \multicolumn{3}{c}{$\nu$}                                                                                                        \\ \hline
+        \multicolumn{1}{l|}{Parm.}           & RR                    & CI(95\%)                             & \multicolumn{1}{c|}{P-value}                                & OR                    & CI(95\%)                             & P-value                                                    \\ \hline
+        \multicolumn{1}{l|}{$\alpha$}        & {\color[HTML]{000000} 15.77} & {\color[HTML]{000000} (13.12; 18.95)} & \multicolumn{1}{c|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 0.004} & {\color[HTML]{000000} (0.00; 0.06)}   & \multicolumn{1}{l}{{\color[HTML]{000000} \textless{}0.001}} \\
+        \multicolumn{1}{l|}{$\beta_{se2}$}   & {\color[HTML]{000000} 0.69}  & {\color[HTML]{000000} (0.56; 0.84)}   & \multicolumn{1}{l|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 5.83}  & {\color[HTML]{000000} (0.64; 53.54)}  & {\color[HTML]{000000} 0.121}                                \\
+        \multicolumn{1}{l|}{$\beta_{se3}$}   & {\color[HTML]{000000} 0.66}  & {\color[HTML]{000000} (0.53; 0.81)}   & \multicolumn{1}{l|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 14.31} & {\color[HTML]{000000} (1.69; 121.49)} & \multicolumn{1}{l}{{\color[HTML]{000000}\   0.016}} \\
+        \multicolumn{1}{l|}{$\gamma_{dur}$}  & {\color[HTML]{000000} 0.35}  & {\color[HTML]{000000} (0.28; 0.43)}   & \multicolumn{1}{l|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 15.80} & {\color[HTML]{000000} (1.89; 131.99)} & \multicolumn{1}{l}{{\color[HTML]{000000} \ 0.012}} \\
+        \multicolumn{1}{l|}{$\gamma_{post}$} & {\color[HTML]{000000} 0.65}  & {\color[HTML]{000000} (0.54; 0.79)}   & \multicolumn{1}{l|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 4.43}  & {\color[HTML]{000000} (0.47; 42.12)}  & {\color[HTML]{000000} 0.197}                                \\
+        \multicolumn{1}{l|}{$\theta_{R+}$}   & {\color[HTML]{000000} 1.33}  & {\color[HTML]{000000} (1.12; 1.57)}   & \multicolumn{1}{l|}{{\color[HTML]{000000} \ \  0.001}} & {\color[HTML]{000000} 0.33}  & {\color[HTML]{000000} (0.09; 1.14)}   & {\color[HTML]{000000} 0.081}                                \\ \hline
+    \end{tabular}
+    \label{tab:est1}
+\end{table}
+\end{frame}
+
+\begin{frame}{Interpretação}
+\protect\hypertarget{interpretauxe7uxe3o}{}
 \end{frame}
 
 \hypertarget{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}{%
@@ -1348,11 +1442,11 @@ neutra}\label{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}}
 \end{frame}
 
 \begin{frame}{}
-\protect\hypertarget{section-3}{}
+\protect\hypertarget{section}{}
 \end{frame}
 
 \begin{frame}{}
-\protect\hypertarget{section-4}{}
+\protect\hypertarget{section-1}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/mbetas} 
@@ -1364,7 +1458,7 @@ neutra}\label{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}}
 \end{frame}
 
 \begin{frame}{}
-\protect\hypertarget{section-5}{}
+\protect\hypertarget{section-2}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/interaction} 
