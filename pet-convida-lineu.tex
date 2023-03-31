@@ -667,20 +667,22 @@ Por exemplo:
 \begin{itemize}
 \tightlist
 \item
-  Estudos de comportamento animal costumam apresentar diversos outros
-  fatores que devem ser levados em consideração na análise estatística.
+  Estudos de comportamento animal costumam apresentar diversos
+  \textbf{outros fatores} que devem ser levados em consideração na
+  análise estatística.
 \end{itemize}
 
 \beginAHalfColumn
 
 \begin{itemize}
 \item
-  Unidades agrupadas (ninhadas, rebanhos).
+  Unidades \textbf{agrupadas} (ninhadas, rebanhos).
 \item
-  Estudos longitudinais (cada animal é avaliado em diferentes momentos).
+  Estudos \textbf{longitudinais} (cada animal é avaliado em diferentes
+  momentos).
 \item
-  Estudos espaciais (coordenadas espaciais são relevantes para a
-  análise).
+  Estudos \textbf{espaciais} (coordenadas espaciais são relevantes para
+  a análise).
 \end{itemize}
 
 \endColumns
@@ -829,11 +831,11 @@ Por exemplo:
   \tightlist
   \item
     Ideia geral.
+  \item
+    GAMLSS.
+  \item
+    Potencial do GAMLSS para problemas de comportamento animal.
   \end{itemize}
-\item
-  GAMLSS.
-\item
-  Potencial do GAMLSS para problemas de comportamento animal.
 \end{itemize}
 
 \endColumns
@@ -954,12 +956,25 @@ Por exemplo:
 
 \begin{itemize}
 \item
-  Foram observadas \textbf{20 ovelhas} pertencentes a
-  \textbf{2 linhagens genéticas}, que foram
-  \textbf{submetidas à escovação} por um humano que lhes era familiar.
+  20 ovelhas.
+
+  \begin{itemize}
+  \item
+    2 linhagens genéticas.
+  \item
+    Submetidas à escovação por um humano familiar.
+  \end{itemize}
 \item
-  Verificou-se o número de alterações de postura e as proporções de
-  tempo em que os animais permaneciam em determinadas posturas.
+  Verificou-se:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O número de alterações de postura.
+  \item
+    Proporções de tempo em que os animais permaneciam em determinadas
+    posturas.
+  \end{itemize}
 \end{itemize}
 
 \endColumns
@@ -1034,11 +1049,11 @@ O experimento foi conduzido em \textbf{três sessões experimentais}:
 \protect\hypertarget{estudo-de-caso-6}{}
 \begin{figure}
 
-{\centering \includegraphics[width=0.6\linewidth]{./img/isol} 
+{\centering \includegraphics[width=0.55\linewidth]{./img/isol} 
 
 }
 
-\caption{Foto sessão.}\label{fig:unnamed-chunk-7}
+\caption{Fotografia sessão sem isolamento.}\label{fig:unnamed-chunk-7}
 \end{figure}
 \end{frame}
 
@@ -1204,7 +1219,7 @@ Para definição de um GAMLSS considere:
 
 \begin{frame}{Procedimento de análise}
 \protect\hypertarget{procedimento-de-anuxe1lise}{}
-Respostas
+\textbf{Respostas}
 
 \begin{enumerate}
 \tightlist
@@ -1214,7 +1229,7 @@ Respostas
   Proporção do tempo com as orelhas em posição neutra.
 \end{enumerate}
 
-Procedimento para o número de mudanças de postura de orelha:
+\textbf{Procedimento}
 
 \begin{enumerate}
 \tightlist
@@ -1236,8 +1251,8 @@ Procedimento para o número de mudanças de postura de orelha:
 \section{Número de mudanças de postura de
 orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 
-\begin{frame}{Número de mudanças de postura de orelha}
-\protect\hypertarget{nuxfamero-de-mudanuxe7as-de-postura-de-orelha-1}{}
+\begin{frame}{Análise exploratória}
+\protect\hypertarget{anuxe1lise-exploratuxf3ria}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/count} 
@@ -1253,17 +1268,17 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 \begin{itemize}
 \tightlist
 \item
-  Poisson (PO).
+  Poisson (\textbf{PO}).
 \item
-  Negative binomial distribution (NBI).
+  Negative binomial distribution (\textbf{NBI}).
 \item
-  Zero inflated Poisson distribution (ZIP).
+  Zero inflated Poisson distribution (\textbf{ZIP}).
 \item
-  Zero inflated negative binomial distribution (ZINBI).
+  Zero inflated negative binomial distribution (\textbf{ZINBI}).
 \item
-  Zero adjusted Poisson distribution (ZAP).
+  Zero adjusted Poisson distribution (\textbf{ZAP}).
 \item
-  Zero adjusted negative binomial distribution (ZANBI).
+  Zero adjusted negative binomial distribution (\textbf{ZANBI}).
 \end{itemize}
 \end{frame}
 
@@ -1272,17 +1287,16 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 \begin{itemize}
 \item
   Para cada distribuição os modelos foram especificados com os efeitos
-  fixos de sessão, momento, linhagem e as interações duas a duas.
+  fixos de \textbf{sessão}, \textbf{momento}, \textbf{linhagem} e as
+  \textbf{interações duas a duas}.
 \item
-  Adicionalmente foram incluídos 2 efeitos aleatórios: um a nível de
-  animal e outro a nível de animal dentro de sessão.
+  Adicionalmente foram incluídos 2 \textbf{efeitos aleatórios}: um a
+  nível de \textbf{animal} e outro a nível de
+  \textbf{animal dentro de sessão}.
 \item
-  Os efeitos aleatórios foram usados devido à necessidade de incorporar
-  as correlações causadas pela estrutura de medidas repetidas (9 medidas
-  por animal).
-\item
-  Nas distribuições com parâmetros associados à inflação de zeros foram
-  incluídos os efeitos fixos de sessão, momento e linhagem.
+  Nas distribuições com parâmetros associados à
+  \textbf{inflação de zeros} foram incluídos os efeitos fixos de
+  \textbf{sessão}, \textbf{momento} e \textbf{linhagem}.
 \end{itemize}
 \end{frame}
 
@@ -1290,26 +1304,26 @@ orelha}\label{nuxfamero-de-mudanuxe7as-de-postura-de-orelha}}
 \protect\hypertarget{seleuxe7uxe3o-de-modelos}{}
 \begin{itemize}
 \item
-  A distribuição foi selecionada por meio de medidas de qualidade de
-  ajuste.
+  A distribuição foi selecionada por meio de
+  \textbf{medidas de qualidade de ajuste}.
 \item
-  A distribuição com melhor desempenho foi a ZANBI.
+  A distribuição com melhor desempenho foi a \textbf{ZANBI}.
 \item
-  Buscou-se o menor modelo que não diferisse do original.
+  Buscou-se o \textbf{menor modelo} que não diferisse do original.
 
   \begin{itemize}
   \tightlist
   \item
-    Testou-se a exclusão de variáveis explicativas do modelo.
+    Testou-se a \textbf{exclusão de variáveis} explicativas do modelo.
   \item
     A comparação entre o modelo original e os reduzidos foi feito por
-    meio do teste da razão de verossimilhanças.
+    meio do \textbf{teste da razão de verossimilhanças}.
   \end{itemize}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Modelo final}
-\protect\hypertarget{modelo-final}{}
+\begin{frame}{Especificação}
+\protect\hypertarget{especificauxe7uxe3o}{}
 Considere \(Y_{ijkl}\) a variável resposta.
 
 \begin{itemize}
@@ -1324,8 +1338,8 @@ Considere \(Y_{ijkl}\) a variável resposta.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Modelo final}
-\protect\hypertarget{modelo-final-1}{}
+\begin{frame}{Especificação}
+\protect\hypertarget{especificauxe7uxe3o-1}{}
 \begin{equation}
     \begin{aligned}
         Y_{ijkl}|u_{j},v_{jk} \sim\,  ZANBI(\mu_{ijkl}, \sigma, \nu_{ikl}),
@@ -1336,39 +1350,11 @@ Considere \(Y_{ijkl}\) a variável resposta.
 \begin{itemize}
 \item
   \(\mu_{ijkl}\) representa o parâmetro de locação da distribuição
-  condicional de \(y\)
+  condicional de \(y\).
 \item
   \(\sigma\) representa o parâmetro de dispersão.
 \item
   \(\nu_{ikl}\) está associado ao excesso de zeros.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Modelo final}
-\protect\hypertarget{modelo-final-2}{}
-\begin{equation}
-    \begin{aligned}
-        \log(\mu_{ijkl}) = \alpha^{(1)} + \beta_{j}^{(1)} + \gamma_{k}^{(1)} + \theta_{l}^{(1)} + u_{i} + v_{ik}
-    \end{aligned}
-    \label{eq.count.mu}
-\end{equation}
-
-\begin{equation}
-    \begin{aligned}
-        \text{logit}(\nu_{jkl}) = \alpha^{(2)} + \beta_{j}^{(2)} + \gamma_{k}^{(2)} + \theta_{l}^{(2)}
-    \end{aligned}
-    \label{eq.count.nu}
-\end{equation}
-
-\begin{itemize}
-\item
-  \(\alpha^{(1)}\) representa o intercepto.
-\item
-  \(\beta_{j}^{(1)}\) representa o efeito de sessão.
-\item
-  \(\gamma_{k}^{(1)}\) representa o efeito de momento.
-\item
-  \(\theta_{l}^{(1)}\) representa o efeito de linhagem.
 \item
   \(u_{i}\) representa o efeito aleatório a nível de animal.
 
@@ -1389,6 +1375,35 @@ Considere \(Y_{ijkl}\) a variável resposta.
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Modelo final}
+\protect\hypertarget{modelo-final}{}
+\begin{equation}
+    \begin{aligned}
+        \log(\mu_{ijkl}) = \alpha^{(1)} + \beta_{j}^{(1)} + \gamma_{k}^{(1)} + \theta_{l}^{(1)} + u_{i} + v_{ik}
+    \end{aligned}
+    \label{eq.count.mu}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}
+        \text{logit}(\nu_{jkl}) = \alpha^{(2)} + \beta_{j}^{(2)} + \gamma_{k}^{(2)} + \theta_{l}^{(2)}
+    \end{aligned}
+    \label{eq.count.nu}
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\alpha^{(1)}\) representa o intercepto.
+\item
+  \(\beta_{j}^{(1)}\) representa o efeito de sessão.
+\item
+  \(\gamma_{k}^{(1)}\) representa o efeito de momento.
+\item
+  \(\theta_{l}^{(1)}\) representa o efeito de linhagem.
+\end{itemize}
+\end{frame}
+
 \begin{frame}{Diagnóstico}
 \protect\hypertarget{diagnuxf3stico}{}
 \begin{figure}
@@ -1397,7 +1412,7 @@ Considere \(Y_{ijkl}\) a variável resposta.
 
 }
 
-\caption{Análise exploratória da proporção do tempo com as orelhas em posição neutra.}\label{fig:unnamed-chunk-11}
+\caption{Análise dos resíduos quantílicos aleatorizados do modelo ZANBI final.}\label{fig:unnamed-chunk-11}
 \end{figure}
 \end{frame}
 
@@ -1423,14 +1438,35 @@ Considere \(Y_{ijkl}\) a variável resposta.
 
 \begin{frame}{Interpretação}
 \protect\hypertarget{interpretauxe7uxe3o}{}
+\textbf{Os animais apresentaram }
+
+\begin{itemize}
+\item
+  Menores contagens nas sessões 2 e 3 quando comparados com a sessão 1.
+\item
+  Menores contagens durante e depois da intervenção quando comparados
+  com antes.
+\item
+  Maiores contagens são observadas em animais reativos.
+\end{itemize}
+
+\textbf{Sobre a propensão a não mover as orelhas}
+
+\begin{itemize}
+\item
+  Durante a escovação os animais são mais propensos a não mover as
+  orelhas.
+\item
+  Animais não reativos são mais propensos a não mover as orelhas.
+\end{itemize}
 \end{frame}
 
 \hypertarget{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}{%
 \section{Proporção do tempo com as orelhas em posição
 neutra}\label{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}}
 
-\begin{frame}{Proporção do tempo com as orelhas em posição neutra}
-\protect\hypertarget{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra-1}{}
+\begin{frame}{Análise exploratória}
+\protect\hypertarget{anuxe1lise-exploratuxf3ria-1}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/prop} 
@@ -1443,30 +1479,202 @@ neutra}\label{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}}
 
 \begin{frame}{}
 \protect\hypertarget{section}{}
+\textbf{Distribuições}
+
+\begin{itemize}
+\tightlist
+\item
+  Beta (\textbf{BE}).
+\item
+  Beta inflacionada (\textbf{BEINF}).
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Preditores iniciais}
+
+\begin{itemize}
+\item
+  Para cada distribuição os modelos foram especificados com os efeitos
+  fixos de \textbf{sessão}, \textbf{momento}, \textbf{linhagem} e as
+  \textbf{interações duas a duas}.
+\item
+  Adicionalmente foram incluídos 2 \textbf{efeitos aleatórios}: um a
+  nível de \textbf{animal} e outro a nível de
+  \textbf{animal dentro de sessão}.
+\item
+  Na distribuição Beta Inflacionada, foram incluídos os efeitos fixos de
+  \textbf{sessão}, \textbf{momento} e \textbf{linhagem} no parâmetro
+  referente à inflação de zeros.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Seleção de modelos}
+\protect\hypertarget{seleuxe7uxe3o-de-modelos-1}{}
+\begin{itemize}
+\item
+  A distribuição foi selecionada por meio da
+  \textbf{análise gráfica dos resíduos quantílicos aleatorizados}.
+\item
+  A distribuição com melhor desempenho foi a \textbf{BEINF}.
+\item
+  Buscou-se o \textbf{menor modelo} que não diferisse do original.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Testou-se a \textbf{exclusão de variáveis} explicativas do modelo.
+  \item
+    A comparação entre o modelo original e os reduzidos foi feito por
+    meio do \textbf{teste da razão de verossimilhanças}.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Seleção de modelos}
+\protect\hypertarget{seleuxe7uxe3o-de-modelos-2}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{./img/mbetas} 
+
+}
+
+\caption{Análise dos resíduos quantílicos aleatorizados para os modelos Beta e Beta Inflacionado.}\label{fig:unnamed-chunk-13}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Especificação}
+\protect\hypertarget{especificauxe7uxe3o-2}{}
+\begin{equation}
+    \begin{aligned}
+        Y_{ijkl}|u_{j},v_{jk} \sim\,  BEINF(\mu_{ijkl}, \sigma, \nu_{ikl}, \tau),
+    \end{aligned}
+    \label{eq.model.geral}
+\end{equation}
+
+\begin{itemize}
+\item
+  \(\mu_{ijkl}\) representa o parâmetro de locação da distribuição
+  condicional de \(y\).
+\item
+  \(\sigma\) representa o parâmetro de dispersão.
+\item
+  \(\nu_{ikl}\) está associado ao excesso de zeros.
+\item
+  \(\tau\) está associado ao excesso de uns.
+\item
+  \(u_{i}\) representa o efeito aleatório a nível de animal.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(u_{i} \sim \text{N}(0, \sigma^{2}_{U})\)
+  \end{itemize}
+\item
+  \(v_{ik}\) representa o efeito aleatório a nível de animal dentro de
+  sessão.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(v_{ik} \sim \text{N}(0, \sigma^{2}_{V})\)
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Modelo final}
+\protect\hypertarget{modelo-final-1}{}
+\begin{equation}
+    \begin{aligned}
+        \text{logit}(\mu_{ijkl}) = \alpha^{(1)} + \beta_{j}^{(1)} + \gamma_{k}^{(1)} + \theta_{l}^{(1)} + (\beta\gamma)_{jk}^{(1)} + (\beta\theta)_{jl}^{(1)} + (\gamma\theta)_{kl}^{(1)} + u_{i} + v_{ik},
+    \end{aligned}
+    \label{eq.prop.mu}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}
+        \text{logit}(\nu_{jkl}) = \alpha^{(2)} + \beta_{j}^{(2)} + \gamma_{k}^{(2)} + \theta_{l}^{(2)}.
+    \end{aligned}
+    \label{eq.prop.nu}
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\alpha^{(1)}\) representa o intercepto.
+\item
+  \(\beta_{j}^{(1)}\) representa o efeito de sessão.
+\item
+  \(\gamma_{k}^{(1)}\) representa o efeito de momento.
+\item
+  \(\theta_{l}^{(1)}\) representa o efeito de linhagem.
+\end{itemize}
 \end{frame}
 
 \begin{frame}{}
 \protect\hypertarget{section-1}{}
-\begin{figure}
-
-{\centering \includegraphics[width=0.95\linewidth]{./img/mbetas} 
-
-}
-
-\caption{Análise exploratória da proporção do tempo com as orelhas em posição neutra.}\label{fig:unnamed-chunk-13}
-\end{figure}
+\begin{table}[h]
+    \centering
+    \caption{Odds ratios, confidence intervals and p-values for the final \text{BEINF} model.}
+    \begin{tabular}{lcccccc}
+        \hline
+        & \multicolumn{3}{c}{$\mu$}                                                                                                      & \multicolumn{3}{c}{$\nu$}                                     \\ \hline
+        \multicolumn{1}{l|}{Parm.}                    & OR                   & CI(95\%)                           & \multicolumn{1}{c|}{P-value}                                & OR                    & CI(95\%)     & P-value         \\ \hline
+        \multicolumn{1}{l|}{$\alpha$}                 & {\color[HTML]{000000} 0.22} & {\color[HTML]{000000} (0.13; 0.36)} & \multicolumn{1}{c|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 0.11}  & (0.04; 0.30)  & \textless{}0.001 \\
+        \multicolumn{1}{l|}{$\beta_{se2}$}            & {\color[HTML]{000000} 0.40} & {\color[HTML]{000000} (0.17; 0.91)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.031}} & {\color[HTML]{000000} 6.52}  & (2.46; 17.27) & \textless{}0.001 \\
+        \multicolumn{1}{l|}{$\beta_{se3}$}            & {\color[HTML]{000000} 1.02} & {\color[HTML]{000000} (0.38; 2.70)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.969}}            & {\color[HTML]{000000} 17.16} & (6.31; 46.72) & \textless{}0.001 \\
+        \multicolumn{1}{l|}{$\gamma_{dur}$}           & {\color[HTML]{000000} 3.29} & {\color[HTML]{000000} (1.68; 6.44)} & \multicolumn{1}{c|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 2.76}  & (1.16; 6.56)  & 0.023 \\
+        \multicolumn{1}{l|}{$\gamma_{post}$}          & {\color[HTML]{000000} 1.55} & {\color[HTML]{000000} (0.73; 3.27)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.257}}            & {\color[HTML]{000000} 1.46}  & (0.62; 3.44)  & 0.388            \\
+        \multicolumn{1}{l|}{$\theta_{R+}$}            & {\color[HTML]{000000} 1.93} & {\color[HTML]{000000} (1.00; 3.72)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.053}}            & {\color[HTML]{000000} 0.40}  & (0.20; 0.81)  & 0.012 \\
+        \multicolumn{1}{l|}{$\beta\gamma_{se2:dur}$}  & {\color[HTML]{000000} 0.19} & {\color[HTML]{000000} (0.07; 0.54)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.002}} & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\beta\gamma_{se3:dur}$}  & {\color[HTML]{000000} 0.48} & {\color[HTML]{000000} (0.16; 1.47)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.201}}            & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\beta\gamma_{se2:post}$} & {\color[HTML]{000000} 0.84} & {\color[HTML]{000000} (0.34; 2.09)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.705}}            & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\beta\gamma_{se3:post}$} & {\color[HTML]{000000} 0.47} & {\color[HTML]{000000} (0.14; 1.59)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.226}}            & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\beta\theta_{se2:R+}$}   & {\color[HTML]{000000} 1.04} & {\color[HTML]{000000} (0.46; 2.36)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.924}}            & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\beta\theta_{se3:R+}$}   & {\color[HTML]{000000} 0.31} & {\color[HTML]{000000} (0.12; 0.84)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.022}} & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\gamma\theta_{dur:R+}$}  & {\color[HTML]{000000} 4.06} & {\color[HTML]{000000} (1.72; 9.58)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.002}}            & {\color[HTML]{000000} }      &              &                 \\
+        \multicolumn{1}{l|}{$\gamma\theta_{post:R+}$} & {\color[HTML]{000000} 1.68} & {\color[HTML]{000000} (0.72; 3.89)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.231}} & {\color[HTML]{000000} }      &              &                 \\ \hline
+    \end{tabular}
+    \label{tab:est2}
+\end{table}
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section-2}{}
+\begin{frame}{Estimativas}
+\protect\hypertarget{estimativas-1}{}
 \begin{figure}
 
 {\centering \includegraphics[width=0.95\linewidth]{./img/interaction} 
 
 }
 
-\caption{Análise exploratória da proporção do tempo com as orelhas em posição neutra.}\label{fig:unnamed-chunk-14}
+\caption{Valores esperados para as combinações entre os fatores do modelo BEINF.}\label{fig:unnamed-chunk-14}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Interpretação}
+\protect\hypertarget{interpretauxe7uxe3o-1}{}
+\textbf{Os animais apresentam}
+
+\begin{itemize}
+\item
+  Proporções maiores durante a escovação, especialmente em animais
+  reativos.
+\item
+  Menores proporções na observadas na sessão 2, especialmente em animais
+  não reativos.
+\item
+  Comportamento distintos entre linhagens na sessão 2.
+\end{itemize}
+
+\textbf{Sobre a propensão a não permanecer com as orelhas em posição neutra}
+
+\begin{itemize}
+\item
+  É maior sob intervenção humana.
+\item
+  Nas sessões 2 e 3 os animais são mais propensos a manter suas orelhas
+  em posturas não horizontais do que na sessão 1.
+\end{itemize}
 \end{frame}
 
 \hypertarget{considerauxe7uxf5es-finais}{%
@@ -1476,22 +1684,87 @@ neutra}\label{proporuxe7uxe3o-do-tempo-com-as-orelhas-em-posiuxe7uxe3o-neutra}}
 \protect\hypertarget{considerauxe7uxf5es-finais-1}{}
 \begin{itemize}
 \item
-  Neste trabalho exploramos a flexibilidade do GAMLSS na análise de
-  dados de comportamento animal.
+  Neste trabalho exploramos a flexibilidade do \textbf{GAMLSS} na
+  análise de dados de \textbf{comportamento animal}.
 \item
   Dois tipos de variáveis comuns a este tipo de estudo foram analisadas:
-  um contagem e uma proporção.
+  um \textbf{contagem} e uma \textbf{proporção}.
 \item
-  No estudo de caso o objetivo era investigar o efeito de isolamento
-  social, intervenção humana e linhagem dos animais.
+  No estudo de caso o objetivo era investigar o efeito de
+  \textbf{isolamento social}, \textbf{intervenção humana} e
+  \textbf{linhagem} dos animais.
 \item
   Os dados apresentavam uma estrurura multinível, super-dispersão,
   inflação de zeros e efeito de covariáveis em mais de um parâmetro.
 \item
   Com GAMLSS foi possível analisar adequadamente ambas as respostas
-  considerando todas as especificidades do problema e provendo
-  resultados confiáveis e consistentes.
+  considerando todas as especificidades do problema.
 \end{itemize}
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section-2}{}
+Este trabalho foi conduzido integralmente no PET-Estatística UFPR sob a
+orientação dos professores \textbf{Cesar Augusto Taconeli} e
+\textbf{José Luiz Padilha da Silva} e colaboração da pesquisadora
+\textbf{Priscilla Regina Tamioso} e da professora
+\textbf{Carla Forte Maiolino Molento}.
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section-3}{}
+O trabalho foi apresentado em 3 eventos:
+
+\begin{itemize}
+\item
+  Sessão pôster da 63ª
+  \textbf{Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria}
+  (RBras).
+\item
+  Sessão pôster do 23°
+  \textbf{Simpósio Nacional de Probabilidade e Estatística} (SINAPE).
+\item
+  Comunicação oral do 17° \textbf{Encontro das Atividades Formativas}
+  (ENAF), 10ª Semana Integrada de Ensino, Pesquisa e Extensão (SIEPE).
+\end{itemize}
+
+O trabalho foi publicado no \textbf{Brazilian Journal of Biometrics}.
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section-4}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.65\linewidth]{./img/rbras} 
+
+}
+
+\caption{Apresentação poster RBRAS.}\label{fig:unnamed-chunk-15}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section-5}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{./img/sinape} 
+
+}
+
+\caption{Apresentação poster SINAPE.}\label{fig:unnamed-chunk-16}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section-6}{}
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{./img/siepe} 
+
+}
+
+\caption{Comunicação oral SIEPE.}\label{fig:unnamed-chunk-17}
+\end{figure}
 \end{frame}
 
 \end{document}

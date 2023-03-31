@@ -54,15 +54,15 @@ Por exemplo:
 
 ## Estudos de comportamento animal
 
- - Estudos de comportamento animal costumam apresentar diversos outros fatores que devem ser levados em consideração na análise estatística. 
+ - Estudos de comportamento animal costumam apresentar diversos \textbf{outros fatores} que devem ser levados em consideração na análise estatística. 
 
 \beginAHalfColumn
 
-  - Unidades agrupadas (ninhadas, rebanhos). 
+  - Unidades \textbf{agrupadas} (ninhadas, rebanhos). 
 
-  - Estudos longitudinais (cada animal é avaliado em diferentes momentos).
+  - Estudos \textbf{longitudinais} (cada animal é avaliado em diferentes momentos).
 
-  - Estudos espaciais (coordenadas espaciais são relevantes para a análise).
+  - Estudos \textbf{espaciais} (coordenadas espaciais são relevantes para a análise).
 
 \endColumns
 \beginAHalfColumn
@@ -144,9 +144,9 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
  	- Especificidades dos dados.
  	
  - Modelos de regressão.
- 	- Ideia geral.
-  - GAMLSS.
-  - Potencial do GAMLSS para problemas de comportamento animal.
+ 	  - Ideia geral.
+    - GAMLSS.
+    - Potencial do GAMLSS para problemas de comportamento animal.
 
 \endColumns
 \beginAHalfColumn
@@ -205,9 +205,16 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
 
 \beginAThirdColumn
 
- - Foram observadas \textbf{20 ovelhas} pertencentes a \textbf{2 linhagens genéticas}, que foram \textbf{submetidas à escovação} por um humano que lhes era familiar.
+ - 20 ovelhas.
+
+    - 2 linhagens genéticas. 
  
- - Verificou-se o número de alterações de postura e as proporções de tempo em que os animais permaneciam em determinadas posturas.
+    - Submetidas à escovação por um humano familiar.
+ 
+ - Verificou-se: 
+    
+    - O número de alterações de postura.
+    - Proporções de tempo em que os animais permaneciam em determinadas posturas.
 
 \endColumns
 \beginTwoThirdsColumn
@@ -248,7 +255,7 @@ knitr::include_graphics("./img/se2.png")
 
 ## Estudo de caso
 
-```{r, echo = FALSE, out.width='60%', fig.align='center', fig.cap="Foto sessão."}
+```{r, echo = FALSE, out.width='55%', fig.align='center', fig.cap="Fotografia sessão sem isolamento."}
 knitr::include_graphics("./img/isol.png")
 ```
 
@@ -343,12 +350,12 @@ Para definição de um GAMLSS considere:
 
 ## Procedimento de análise
 
-Respostas
+\textbf{Respostas}
 
  1. Número de mudanças de postura de orelha.
  2. Proporção do tempo com as orelhas em posição neutra.
 
-Procedimento para o número de mudanças de postura de orelha:
+\textbf{Procedimento}
 
 1. Seleção de distribuições compatíveis com o problema.
 2. Ajuste de modelos com o mesmo preditor para todas as distribuições.
@@ -366,32 +373,30 @@ knitr::include_graphics("./img/count.pdf")
 
 ## Distribuições
 
- - Poisson (PO).
- - Negative binomial distribution (NBI).
- - Zero inflated Poisson distribution (ZIP).
- - Zero inflated negative binomial distribution (ZINBI).
- - Zero adjusted Poisson distribution (ZAP).
- - Zero adjusted negative binomial distribution (ZANBI).
+ - Poisson (\textbf{PO}).
+ - Negative binomial distribution (\textbf{NBI}).
+ - Zero inflated Poisson distribution (\textbf{ZIP}).
+ - Zero inflated negative binomial distribution (\textbf{ZINBI}).
+ - Zero adjusted Poisson distribution (\textbf{ZAP}).
+ - Zero adjusted negative binomial distribution (\textbf{ZANBI}).
 
 ## Preditores iniciais
 
- - Para cada distribuição os modelos foram especificados com os efeitos fixos de sessão, momento, linhagem e as interações duas a duas.
+ - Para cada distribuição os modelos foram especificados com os efeitos fixos de \textbf{sessão}, \textbf{momento}, \textbf{linhagem} e as \textbf{interações duas a duas}.
 
- - Adicionalmente foram incluídos 2 efeitos aleatórios: um a nível de animal e outro a nível de animal dentro de sessão.
+ - Adicionalmente foram incluídos 2 \textbf{efeitos aleatórios}: um a nível de \textbf{animal} e outro a nível de \textbf{animal dentro de sessão}.
 
- - Os efeitos aleatórios foram usados devido à necessidade de incorporar as correlações causadas pela estrutura de medidas repetidas (9 medidas por animal).
-
- - Nas distribuições com parâmetros associados à inflação de zeros foram incluídos os efeitos fixos de sessão, momento e linhagem.
+ - Nas distribuições com parâmetros associados à \textbf{inflação de zeros} foram incluídos os efeitos fixos de \textbf{sessão}, \textbf{momento} e \textbf{linhagem}.
 
 ## Seleção de modelos
 
- - A distribuição foi selecionada por meio de medidas de qualidade de ajuste.
+ - A distribuição foi selecionada por meio de \textbf{medidas de qualidade de ajuste}.
  
- - A distribuição com melhor desempenho foi a ZANBI.
+ - A distribuição com melhor desempenho foi a \textbf{ZANBI}.
  
- - Buscou-se o menor modelo que não diferisse do original.
-    - Testou-se a exclusão de variáveis explicativas do modelo.
-    - A comparação entre o modelo original e os reduzidos foi feito por meio do teste da razão de verossimilhanças.
+ - Buscou-se o \textbf{menor modelo} que não diferisse do original.
+    - Testou-se a \textbf{exclusão de variáveis} explicativas do modelo.
+    - A comparação entre o modelo original e os reduzidos foi feito por meio do \textbf{teste da razão de verossimilhanças}.
 
 ## Especificação
 
@@ -414,12 +419,18 @@ Considere $Y_{ijkl}$ a variável resposta.
 	\label{eq.model.geral}
 \end{equation}
 
- - $\mu_{ijkl}$ representa o parâmetro de locação da distribuição condicional de  $y$
+ - $\mu_{ijkl}$ representa o parâmetro de locação da distribuição condicional de  $y$.
 
  - $\sigma$ representa o parâmetro de dispersão.
 
  - $\nu_{ikl}$ está associado ao excesso de zeros.
 
+ - $u_{i}$ representa o efeito aleatório a nível de animal.
+ 	- $u_{i} \sim \text{N}(0, \sigma^{2}_{U})$
+ 	
+ - $v_{ik}$ representa o efeito aleatório a nível de animal dentro de sessão.
+	- $v_{ik} \sim \text{N}(0, \sigma^{2}_{V})$
+	
 ## Modelo final
 
 \begin{equation}
@@ -442,15 +453,9 @@ Considere $Y_{ijkl}$ a variável resposta.
  - $\gamma_{k}^{(1)}$ representa o efeito de momento.
  - $\theta_{l}^{(1)}$ representa o efeito de linhagem.
 
- - $u_{i}$ representa o efeito aleatório a nível de animal.
- 	- $u_{i} \sim \text{N}(0, \sigma^{2}_{U})$
- 	
- - $v_{ik}$ representa o efeito aleatório a nível de animal dentro de sessão.
-	- $v_{ik} \sim \text{N}(0, \sigma^{2}_{V})$
-	
 ## Diagnóstico 
 
-```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise dos resíduos quantílicos aleatorizados do modelo ZANBI final."}
 knitr::include_graphics("./img/mzanbi.png")
 ```
 
@@ -475,39 +480,200 @@ knitr::include_graphics("./img/mzanbi.png")
 
 ## Interpretação
 
+\textbf{Os animais apresentaram }
+
+ - Menores contagens nas sessões 2 e 3 quando comparados com a sessão 1.
+
+ - Menores contagens durante e depois da intervenção quando comparados com antes.
+ 
+ - Maiores contagens são observadas em animais reativos.
+
+\textbf{Sobre a propensão a não mover as orelhas}
+
+ - Durante a escovação os animais são mais propensos a não mover as orelhas.
+
+ - Animais não reativos são mais propensos a não mover as orelhas.
 
 # Proporção do tempo com as orelhas em posição neutra
 
-## Proporção do tempo com as orelhas em posição neutra
+## Análise exploratória
 
 ```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
 knitr::include_graphics("./img/prop.pdf")
 ```
 
-##
-
 ## 
 
-```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+\textbf{Distribuições}
+
+ - Beta (\textbf{BE}).
+ - Beta inflacionada (\textbf{BEINF}).
+
+\vspace{0.5cm}
+
+\textbf{Preditores iniciais}
+
+ - Para cada distribuição os modelos foram especificados com os efeitos fixos de \textbf{sessão}, \textbf{momento}, \textbf{linhagem} e as \textbf{interações duas a duas}.
+
+ - Adicionalmente foram incluídos 2 \textbf{efeitos aleatórios}: um a nível de \textbf{animal} e outro a nível de \textbf{animal dentro de sessão}.
+
+ - Na distribuição Beta Inflacionada, foram incluídos os efeitos fixos de \textbf{sessão}, \textbf{momento} e \textbf{linhagem} no parâmetro referente à inflação de zeros.
+
+## Seleção de modelos
+
+ - A distribuição foi selecionada por meio da \textbf{análise gráfica dos resíduos quantílicos aleatorizados}.
+ 
+ - A distribuição com melhor desempenho foi a \textbf{BEINF}.
+ 
+ - Buscou-se o \textbf{menor modelo} que não diferisse do original.
+    - Testou-se a \textbf{exclusão de variáveis} explicativas do modelo.
+    - A comparação entre o modelo original e os reduzidos foi feito por meio do \textbf{teste da razão de verossimilhanças}.
+
+## Seleção de modelos
+
+```{r, echo = FALSE, out.width='90%', fig.align='center', fig.cap="Análise dos resíduos quantílicos aleatorizados para os modelos Beta e Beta Inflacionado."}
 knitr::include_graphics("./img/mbetas.png")
 ```
 
-##
+## Especificação
 
-```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Análise exploratória da proporção do tempo com as orelhas em posição neutra."}
+\begin{equation}
+	\begin{aligned}
+		Y_{ijkl}|u_{j},v_{jk} \sim\,  BEINF(\mu_{ijkl}, \sigma, \nu_{ikl}, \tau),
+	\end{aligned}
+	\label{eq.model.geral}
+\end{equation}
+
+ - $\mu_{ijkl}$ representa o parâmetro de locação da distribuição condicional de  $y$.
+
+ - $\sigma$ representa o parâmetro de dispersão.
+
+ - $\nu_{ikl}$ está associado ao excesso de zeros.
+
+ - $\tau$ está associado ao excesso de uns.
+ 
+ - $u_{i}$ representa o efeito aleatório a nível de animal.
+ 	- $u_{i} \sim \text{N}(0, \sigma^{2}_{U})$
+ 	
+ - $v_{ik}$ representa o efeito aleatório a nível de animal dentro de sessão.
+	- $v_{ik} \sim \text{N}(0, \sigma^{2}_{V})$
+	
+## Modelo final
+
+\begin{equation}
+	\begin{aligned}
+		\text{logit}(\mu_{ijkl}) = \alpha^{(1)} + \beta_{j}^{(1)} + \gamma_{k}^{(1)} + \theta_{l}^{(1)} + (\beta\gamma)_{jk}^{(1)} + (\beta\theta)_{jl}^{(1)} + (\gamma\theta)_{kl}^{(1)} + u_{i} + v_{ik},
+	\end{aligned}
+	\label{eq.prop.mu}
+\end{equation}
+
+\begin{equation}
+	\begin{aligned}
+		\text{logit}(\nu_{jkl}) = \alpha^{(2)} + \beta_{j}^{(2)} + \gamma_{k}^{(2)} + \theta_{l}^{(2)}.
+	\end{aligned}
+	\label{eq.prop.nu}
+\end{equation}
+
+
+ - $\alpha^{(1)}$ representa o intercepto.
+ - $\beta_{j}^{(1)}$ representa o efeito de sessão.
+ - $\gamma_{k}^{(1)}$ representa o efeito de momento.
+ - $\theta_{l}^{(1)}$ representa o efeito de linhagem.
+
+## 
+
+\begin{table}[h]
+	\centering
+	\caption{Odds ratios, confidence intervals and p-values for the final \text{BEINF} model.}
+	\begin{tabular}{lcccccc}
+		\hline
+		& \multicolumn{3}{c}{$\mu$}                                                                                                      & \multicolumn{3}{c}{$\nu$}                                     \\ \hline
+		\multicolumn{1}{l|}{Parm.}                    & OR                   & CI(95\%)                           & \multicolumn{1}{c|}{P-value}                                & OR                    & CI(95\%)     & P-value         \\ \hline
+		\multicolumn{1}{l|}{$\alpha$}                 & {\color[HTML]{000000} 0.22} & {\color[HTML]{000000} (0.13; 0.36)} & \multicolumn{1}{c|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 0.11}  & (0.04; 0.30)  & \textless{}0.001 \\
+		\multicolumn{1}{l|}{$\beta_{se2}$}            & {\color[HTML]{000000} 0.40} & {\color[HTML]{000000} (0.17; 0.91)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.031}} & {\color[HTML]{000000} 6.52}  & (2.46; 17.27) & \textless{}0.001 \\
+		\multicolumn{1}{l|}{$\beta_{se3}$}            & {\color[HTML]{000000} 1.02} & {\color[HTML]{000000} (0.38; 2.70)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.969}}            & {\color[HTML]{000000} 17.16} & (6.31; 46.72) & \textless{}0.001 \\
+		\multicolumn{1}{l|}{$\gamma_{dur}$}           & {\color[HTML]{000000} 3.29} & {\color[HTML]{000000} (1.68; 6.44)} & \multicolumn{1}{c|}{{\color[HTML]{000000} \textless{}0.001}} & {\color[HTML]{000000} 2.76}  & (1.16; 6.56)  & 0.023 \\
+		\multicolumn{1}{l|}{$\gamma_{post}$}          & {\color[HTML]{000000} 1.55} & {\color[HTML]{000000} (0.73; 3.27)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.257}}            & {\color[HTML]{000000} 1.46}  & (0.62; 3.44)  & 0.388            \\
+		\multicolumn{1}{l|}{$\theta_{R+}$}            & {\color[HTML]{000000} 1.93} & {\color[HTML]{000000} (1.00; 3.72)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.053}}            & {\color[HTML]{000000} 0.40}  & (0.20; 0.81)  & 0.012 \\
+		\multicolumn{1}{l|}{$\beta\gamma_{se2:dur}$}  & {\color[HTML]{000000} 0.19} & {\color[HTML]{000000} (0.07; 0.54)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.002}} & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\beta\gamma_{se3:dur}$}  & {\color[HTML]{000000} 0.48} & {\color[HTML]{000000} (0.16; 1.47)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.201}}            & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\beta\gamma_{se2:post}$} & {\color[HTML]{000000} 0.84} & {\color[HTML]{000000} (0.34; 2.09)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.705}}            & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\beta\gamma_{se3:post}$} & {\color[HTML]{000000} 0.47} & {\color[HTML]{000000} (0.14; 1.59)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.226}}            & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\beta\theta_{se2:R+}$}   & {\color[HTML]{000000} 1.04} & {\color[HTML]{000000} (0.46; 2.36)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.924}}            & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\beta\theta_{se3:R+}$}   & {\color[HTML]{000000} 0.31} & {\color[HTML]{000000} (0.12; 0.84)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.022}} & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\gamma\theta_{dur:R+}$}  & {\color[HTML]{000000} 4.06} & {\color[HTML]{000000} (1.72; 9.58)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.002}}            & {\color[HTML]{000000} }      &              &                 \\
+		\multicolumn{1}{l|}{$\gamma\theta_{post:R+}$} & {\color[HTML]{000000} 1.68} & {\color[HTML]{000000} (0.72; 3.89)} & \multicolumn{1}{c|}{{\color[HTML]{000000} 0.231}} & {\color[HTML]{000000} }      &              &                 \\ \hline
+	\end{tabular}
+	\label{tab:est2}
+\end{table}
+
+## Estimativas
+
+```{r, echo = FALSE, out.width='95%', fig.align='center', fig.cap="Valores esperados para as combinações entre os fatores do modelo BEINF."}
 knitr::include_graphics("./img/interaction.png")
 ```
+
+## Interpretação
+
+\textbf{Os animais apresentam}
+
+ - Proporções maiores durante a escovação, especialmente em animais reativos.
+
+ - Menores proporções na observadas na sessão 2, especialmente em animais não reativos.
+
+ - Comportamento distintos entre linhagens na sessão 2.
+
+\textbf{Sobre a propensão a não permanecer com as orelhas em posição neutra}
+
+ - É maior sob intervenção humana.
+
+ - Nas sessões 2 e 3 os animais são mais propensos a manter suas orelhas em posturas não horizontais do que na sessão 1.
+
 
 # Considerações finais
 
 ## Considerações finais
 
- - Neste trabalho exploramos a flexibilidade do GAMLSS na análise de dados de comportamento animal.
+ - Neste trabalho exploramos a flexibilidade do \textbf{GAMLSS} na análise de dados de \textbf{comportamento animal}.
 
- - Dois tipos de variáveis comuns a este tipo de estudo foram analisadas: um contagem e uma proporção.
+ - Dois tipos de variáveis comuns a este tipo de estudo foram analisadas: um \textbf{contagem} e uma \textbf{proporção}.
 
- - No estudo de caso o objetivo era investigar o efeito de isolamento social, intervenção humana e linhagem dos animais.
+ - No estudo de caso o objetivo era investigar o efeito de \textbf{isolamento social}, \textbf{intervenção humana} e \textbf{linhagem} dos animais.
 
  - Os dados apresentavam uma estrurura multinível, super-dispersão, inflação de zeros e efeito de covariáveis em mais de um parâmetro.
 
- - Com GAMLSS foi possível analisar adequadamente ambas as respostas considerando todas as especificidades do problema e provendo resultados confiáveis e consistentes.
+ - Com GAMLSS foi possível analisar adequadamente ambas as respostas considerando todas as especificidades do problema.
+
+## 
+
+Este trabalho foi conduzido integralmente no PET-Estatística UFPR sob a orientação dos professores \textbf{Cesar Augusto Taconeli} e \textbf{José Luiz Padilha da Silva} e colaboração da pesquisadora \textbf{Priscilla Regina Tamioso} e da professora \textbf{Carla Forte Maiolino Molento}.
+
+##
+
+O trabalho foi apresentado em 3 eventos:
+
+ - Sessão pôster da 63ª \textbf{Reunião Anual da Região Brasileira da Sociedade Internacional de Biometria} (RBras).
+
+ - Sessão pôster do 23° \textbf{Simpósio Nacional de Probabilidade e Estatística} (SINAPE).
+ 
+ - Comunicação oral do 17° \textbf{Encontro das Atividades Formativas} (ENAF), 10ª Semana Integrada de Ensino, Pesquisa e Extensão (SIEPE).
+
+O trabalho foi publicado no \textbf{Brazilian Journal of Biometrics}.
+ 
+##
+
+```{r, echo = FALSE, out.width='65%', fig.align='center', fig.cap="Apresentação poster RBRAS."}
+knitr::include_graphics("./img/rbras.jpg")
+```
+
+##
+
+```{r, echo = FALSE, out.width='60%', fig.align='center', fig.cap="Apresentação poster SINAPE."}
+knitr::include_graphics("./img/sinape.jpg")
+```
+
+##
+
+```{r, echo = FALSE, out.width='70%', fig.align='center', fig.cap="Comunicação oral SIEPE."}
+knitr::include_graphics("./img/siepe.jpg")
+```
