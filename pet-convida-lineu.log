@@ -1,56 +1,52 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.10)  31 MAR 2023 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.27)  1 APR 2023 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **pet-convida-lineu.tex
 (./pet-convida-lineu.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/beam
-er/beamer.cls
-Document Class: beamer 2022/01/21 v3.65 A class for typesetting presentations
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share
-/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2023/02/20 v3.69 A class for typesetting presentations
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
-\beamer@tempbox=\box50
+\beamer@tempbox=\box51
 \beamer@tempcount=\count186
 \c@beamerpauses=\count187
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 \beamer@slideinframe=\count188
 \beamer@minimum=\count189
-\beamer@decode@box=\box51
+\beamer@decode@box=\box52
 )
-\beamer@commentbox=\box52
+\beamer@commentbox=\box53
 \beamer@modecount=\count190
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\headdp=\dimen138
-\footheight=\dimen139
-\sidebarheight=\dimen140
-\beamer@tempdim=\dimen141
-\beamer@finalheight=\dimen142
-\beamer@animht=\dimen143
-\beamer@animdp=\dimen144
-\beamer@animwd=\dimen145
-\beamer@leftmargin=\dimen146
-\beamer@rightmargin=\dimen147
-\beamer@leftsidebar=\dimen148
-\beamer@rightsidebar=\dimen149
-\beamer@boxsize=\dimen150
-\beamer@vboxoffset=\dimen151
-\beamer@descdefault=\dimen152
-\beamer@descriptionwidth=\dimen153
-\beamer@lastskip=\skip47
-\beamer@areabox=\box53
-\beamer@animcurrent=\box54
-\beamer@animshowbox=\box55
-\beamer@sectionbox=\box56
-\beamer@logobox=\box57
-\beamer@linebox=\box58
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen140
+\footheight=\dimen141
+\sidebarheight=\dimen142
+\beamer@tempdim=\dimen143
+\beamer@finalheight=\dimen144
+\beamer@animht=\dimen145
+\beamer@animdp=\dimen146
+\beamer@animwd=\dimen147
+\beamer@leftmargin=\dimen148
+\beamer@rightmargin=\dimen149
+\beamer@leftsidebar=\dimen150
+\beamer@rightsidebar=\dimen151
+\beamer@boxsize=\dimen152
+\beamer@vboxoffset=\dimen153
+\beamer@descdefault=\dimen154
+\beamer@descriptionwidth=\dimen155
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
 \beamer@sectioncount=\count191
 \beamer@subsubsectionmax=\count192
 \beamer@subsectionmax=\count193
@@ -71,383 +67,325 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionadjust=\count274
 \beamer@toclastsection=\count275
 \beamer@tocsectionnumber=\count276
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/sha
-re/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ))
-\beamer@paperwidth=\skip48
-\beamer@paperheight=\skip49
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count277
 \Gm@cntv=\count278
 \c@Gm@tempcnt=\count279
-\Gm@bindingoffset=\dimen154
-\Gm@wd@mp=\dimen155
-\Gm@odd@mp=\dimen156
-\Gm@even@mp=\dimen157
-\Gm@layoutwidth=\dimen158
-\Gm@layoutheight=\dimen159
-\Gm@layouthoffset=\dimen160
-\Gm@layoutvoffset=\dimen161
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks17
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/sha
-re/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/sha
-re/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/te
-xmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/us
-r/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box60
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
-))
+))) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
 \pgf@x=\dimen166
-\pgf@y=\dimen167
-\pgf@xa=\dimen168
-\pgf@ya=\dimen169
-\pgf@xb=\dimen170
-\pgf@yb=\dimen171
-\pgf@xc=\dimen172
+\pgf@xa=\dimen167
+\pgf@xb=\dimen168
+\pgf@xc=\dimen169
+\pgf@y=\dimen170
+\pgf@ya=\dimen171
+\pgf@yb=\dimen172
 \pgf@yc=\dimen173
-\pgf@xd=\dimen174
-\pgf@yd=\dimen175
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
 \c@pgf@counta=\count280
 \c@pgf@countb=\count281
 \c@pgf@countc=\count282
 \c@pgf@countd=\count283
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count284
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count284
+\pgfmath@box=\box61
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+)))
+
+Class beamer Warning: ``serif'' option is obsolete. Use font theme ``serif'' instead on input line 357.
+
+
+Class beamer Warning: ``professionalfont'' option is obsolete. Use font theme ``professionalfonts'' instead on input line 357.
+
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count290
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count285
-\pgfsyssoftpath@bigbuffer@items=\count286
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/shar
-e/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texl
-ive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/t
-exmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen176
-\pgfmath@count=\count287
-\pgfmath@box=\box60
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmat
-hfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count288
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen177
-\pgf@picmaxx=\dimen178
-\pgf@picminy=\dimen179
-\pgf@picmaxy=\dimen180
-\pgf@pathminx=\dimen181
-\pgf@pathmaxx=\dimen182
-\pgf@pathminy=\dimen183
-\pgf@pathmaxy=\dimen184
-\pgf@xx=\dimen185
-\pgf@xy=\dimen186
-\pgf@yx=\dimen187
-\pgf@yy=\dimen188
-\pgf@zx=\dimen189
-\pgf@zy=\dimen190
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen191
-\pgf@path@lasty=\dimen192
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen193
-\pgf@shorten@start@additional=\dimen194
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count289
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen195
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen199
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count290
-\pgf@shadingcount=\count291
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box64
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-
-Class beamer Warning: ``serif'' option is obsolete. Use font theme ``serif'' in
-stead on input line 357.
-
-
-Class beamer Warning: ``professionalfont'' option is obsolete. Use font theme `
-`professionalfonts'' instead on input line 357.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count293
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count292
-\XC@countmixins=\count293
-) (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+\XC@nummixins=\count296
+\XC@countmixins=\count297
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count298
 )
-\@linkdim=\dimen257
-\Hy@linkcounter=\count294
-\Hy@pagecounter=\count295
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count299
+\Hy@pagecounter=\count300
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count296
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count301
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
-Package hyperref Info: Option `implicit' set `false' on input line 4073.
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4060.
+Package hyperref Info: Option `implicit' set `false' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count297
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count302
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen258
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen268
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count298
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count299
+\Fld@menulength=\count303
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Hy@abspage=\count304
 
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr
-/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/s
-hare/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive
-/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
@@ -455,179 +393,175 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/
-usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+))) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/sh
-are/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/t
-exlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count302
-\beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count303
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/sh
-are/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count304
-\c@part=\count305
-\c@section=\count306
-\c@subsection=\count307
-\c@subsubsection=\count308
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box65
-\beamer@frametitlebox=\box66
-\beamer@zoombox=\box67
-\beamer@zoomcount=\count309
-\beamer@zoomframecount=\count310
-\beamer@frametextheight=\dimen261
-\c@subsectionslide=\count311
-\beamer@frametopskip=\skip51
-\beamer@framebottomskip=\skip52
-\beamer@frametopskipautobreak=\skip53
-\beamer@framebottomskipautobreak=\skip54
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count307
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count308
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count309
+\c@part=\count310
+\c@section=\count311
+\c@subsection=\count312
+\c@subsubsection=\count313
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count314
+\beamer@zoomframecount=\count315
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count316
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
 \beamer@envbody=\toks29
-\framewidth=\dimen262
-\c@framenumber=\count312
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\framewidth=\dimen272
+\c@framenumber=\count317
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-\beamer@splitbox=\box68
-\beamer@autobreakcount=\count313
-\beamer@autobreaklastheight=\dimen263
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count318
+\beamer@autobreaklastheight=\dimen273
 \beamer@frametitletoks=\toks30
 \beamer@framesubtitletoks=\toks31
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-\beamer@footins=\box69
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/sh
-are/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box70
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/shar
-e/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box70
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box71
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks32
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/us
-r/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-\bmb@box=\box71
-\bmb@colorbox=\box72
-\bmb@boxwidth=\dimen264
-\bmb@boxheight=\dimen265
-\bmb@prevheight=\dimen266
-\bmb@temp=\dimen267
-\bmb@dima=\dimen268
-\bmb@dimb=\dimen269
-\bmb@prevheight=\dimen270
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
 )
-\beamer@blockheadheight=\dimen271
-)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+\beamer@blockheadheight=\dimen281
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks33
 )
-\beamer@bibiconwidth=\skip55
-\c@figure=\count314
-\c@table=\count315
-\abovecaptionskip=\skip56
-\belowcaptionskip=\skip57
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen272
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/
-share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip58
+\beamer@bibiconwidth=\skip56
+\c@figure=\count319
+\c@table=\count320
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex)
+\beamer@section@min@dim=\dimen282
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip59
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
-\ex@=\dimen273
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen283
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen274
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+\pmbraise@=\dimen284
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count316
+\inf@bad=\count321
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count317
-\leftroot@=\count318
+\uproot@=\count322
+\leftroot@=\count323
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count319
-\DOTSCASE@=\count320
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count324
+\DOTSCASE@=\count325
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box73
-\strutbox@=\box74
-\big@size=\dimen275
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count321
-\c@MaxMatrixCols=\count322
+\macc@depth=\count326
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count327
 \dotsspace@=\muskip17
-\c@parentequation=\count323
-\dspbrk@lvl=\count324
+\c@parentequation=\count328
+\dspbrk@lvl=\count329
 \tag@help=\toks35
-\row@=\count325
-\column@=\count326
-\maxfields@=\count327
+\row@=\count330
+\column@=\count331
+\maxfields@=\count332
 \andhelp@=\toks36
-\eqnshift@=\dimen276
-\alignsep@=\dimen277
-\tagshift@=\dimen278
-\tagwidth@=\dimen279
-\totwidth@=\dimen280
-\lineht@=\dimen281
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
 \@envbody=\toks37
-\multlinegap=\skip59
-\multlinetaggap=\skip60
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
-) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks39
 \thm@bodyfont=\toks40
 \thm@headfont=\toks41
 \thm@notefont=\toks42
 \thm@headpunct=\toks43
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
 \dth@everypar=\toks44
 )
-\c@theorem=\count328
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/
-share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/te
-xlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texli
-ve/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive
-/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
-\beamer@dima=\dimen282
-\beamer@dimb=\dimen283
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+\c@theorem=\count333
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
 Package: pgfpages 2011/01/05 ver 0.02
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count329
-\calc@Bcount=\count330
-\calc@Adimen=\dimen284
-\calc@Bdimen=\dimen285
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Acount=\count334
+\calc@Bcount=\count335
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count331
-\calc@Cskip=\skip66
+\calc@Ccount=\count336
+\calc@Cskip=\skip67
 )
-\pgf@logicalpages=\count332
-\pgf@firstshipout=\count333
-\pgf@lastshipout=\count334
-\pgf@currentshipout=\count335
-\pgf@cpn=\count336
-\pgf@shipoutnextto=\count337
-\pgfphysicalheight=\dimen286
-\pgfphysicalwidth=\dimen287
-\pgfpages@shipoutbox=\box75
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+\pgf@logicalpages=\count337
+\pgf@firstshipout=\count338
+\pgf@lastshipout=\count339
+\pgf@currentshipout=\count340
+\pgf@cpn=\count341
+\pgf@shipoutnextto=\count342
+\pgfphysicalheight=\dimen296
+\pgfphysicalwidth=\dimen297
+\pgfpages@shipoutbox=\box76
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -660,48 +594,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks45
 \inpenc@posthook=\toks46
-) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
-\MT@toks=\toks47
-\MT@count=\count338
-\MT@tempbox=\box76
-LaTeX Info: Redefining \leftprotrusion on input line 1010.
-LaTeX Info: Redefining \rightprotrusion on input line 1018.
-LaTeX Info: Redefining \textls on input line 1173.
-\MT@outer@kern=\dimen288
-LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
-\MT@listname@count=\count339
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 897.
-LaTeX Info: Redefining \lslig on input line 897.
-\MT@outer@space=\skip67
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
-)) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-) (/usr/share/texlive/texmf-dist/tex/latex/iwona/iwona.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/iwona/iwona.sty
 Package: iwona 2005/10/03 v.1.2 Iwona package (MW)
-\c@mv@iwona=\count340
-\c@mv@iwonabold=\count341
+\c@mv@iwona=\count343
+\c@mv@iwonabold=\count344
 LaTeX Font Info:    Overwriting symbol font `operators' in version `iwona'
 (Font)                  OT1/cmr/m/n --> OT1/iwonalm/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `iwona'
@@ -716,8 +625,7 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `iwonabold'
 (Font)                  OML/cmm/m/it --> OML/iwonal/b/it on input line 63.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `iwonabold'
 (Font)                  OMS/cmsy/m/n --> OMS/iwonal/b/n on input line 64.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwonabol
-d'
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `iwonabold'
 (Font)                  OMX/cmex/m/n --> OMX/iwonal/b/n on input line 65.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `iwona'
 (Font)                  OT1/cmr/bx/n --> OT1/iwonal/bx/n on input line 67.
@@ -731,23 +639,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `iwonabold'
 (Font)                  OT1/cmss/m/n --> OT1/iwonal/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `iwonabold'
 (Font)                  OT1/cmr/m/it --> OT1/iwonal/bx/it on input line 72.
-) (/usr/share/texlive/texmf-dist/tex/latex/fira/FiraSans.sty
-Package: FiraSans 2019/10/10 (Bob Tennent and autoinst) Style file for Fira San
-s fonts.
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/fira/FiraSans.sty
+Package: FiraSans 2022/09/17 (Bob Tennent and autoinst) Style file for Fira Sans fonts.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
-ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks48
-\XKV@tempa@toks=\toks49
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count342
+\XKV@depth=\count345
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -759,27 +665,23 @@ LaTeX Info: Redefining \ulcshape on input line 41.
 LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on inpu
-t line 112.
-(/usr/share/texlive/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
-File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-
-OsF.
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 112.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
+File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <10.95> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 112.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 10.95pt on input line 112.
-) (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/inconsolata/inconsolata.sty
 Package: inconsolata 2019/05/17 v1.12
 `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count343
-) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+\zifour@ocount=\count346
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -788,162 +690,134 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/01/26 3.70 The Babel package
-\babel@savecnt=\count344
-\U@D=\dimen289
-\l@unhyphenated=\language87
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count347
+\U@D=\dimen298
+\l@unhyphenated=\language4
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-LaTeX Info: Redefining \textlatin on input line 3967.
-\bbl@dirlevel=\count345
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
+LaTeX Info: Redefining \textlatin on input line 4088.
+\bbl@dirlevel=\count348
+Package babel Info: Main language set with 'main='. Except if you have
+(babel)             problems, prefer the default mechanism for setting
+(babel)             the main language. Reported on input line 4332.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language17). Reported on input line 111.
-)) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+(babel)             (\language3). Reported on input line 111.
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
-Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/was/icomm
-a.sty
+Excluding comment 'comment') (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen290
-\captionmargin@=\dimen291
-\captionwidth=\dimen292
-\caption@tempdima=\dimen293
-\caption@indent=\dimen294
-\caption@parindent=\dimen295
-\caption@hangindent=\dimen296
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen299
+\captionmargin=\dimen300
+\caption@leftmargin=\dimen301
+\caption@rightmargin=\dimen302
+\caption@width=\dimen303
+\caption@indent=\dimen304
+\caption@parindent=\dimen305
+\caption@hangindent=\dimen306
 Package caption Info: beamer document class detected.
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
-File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
- beamer document classes (AR)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count346
-\c@continuedfloat=\count347
+\c@caption@flags=\count349
+\c@continuedfloat=\count350
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sha
-re/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box77
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen307
+\pgf@nodesepend=\dimen308
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen309
+\pgffor@skip=\dimen310
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count351
+\pgfplotmarksize=\dimen311
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen297
-\pgf@nodesepend=\dimen298
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/shar
-e/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/te
-xmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf
--dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic
-/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/uti
-lities/pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen299
-\pgffor@skip=\dimen300
-\pgffor@stack=\toks50
-\pgffor@toks=\toks51
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count348
-\pgfplotmarksize=\dimen301
-)
-\tikz@lastx=\dimen302
-\tikz@lasty=\dimen303
-\tikz@lastxsaved=\dimen304
-\tikz@lastysaved=\dimen305
-\tikz@lastmovetox=\dimen306
-\tikz@lastmovetoy=\dimen307
-\tikzleveldistance=\dimen308
-\tikzsiblingdistance=\dimen309
+\tikz@lastx=\dimen312
+\tikz@lasty=\dimen313
+\tikz@lastxsaved=\dimen314
+\tikz@lastysaved=\dimen315
+\tikz@lastmovetox=\dimen316
+\tikz@lastmovetoy=\dimen317
+\tikzleveldistance=\dimen318
+\tikzsiblingdistance=\dimen319
 \tikz@figbox=\box78
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
 \tikz@tempbox@bg=\box81
-\tikztreelevel=\count349
-\tikznumberofchildren=\count350
-\tikznumberofcurrentchild=\count351
-\tikz@fig@count=\count352
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count353
-\pgfmatrixcurrentcolumn=\count354
-\pgf@matrix@numberofcolumns=\count355
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
 )
-\tikz@expandcount=\count356
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@expandcount=\count359
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 Package hyperref Info: Option `colorlinks' set `true' on input line 314.
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty (/usr/s
-hare/texlive/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty) (/usr/share/
-texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/te
-xlive/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty) (/usr/share/texl
-ive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/tex
-live/texmf-dist/tex/latex/changepage/changepage.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count357
-\cp@tempcnt=\count358
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks52
-\verbatim@line=\toks53
+\c@cp@cntr=\count360
+\cp@tempcnt=\count361
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
 \verbatim@in@stream=\read4
-) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box82
 \tcb@upperbox=\box83
 \tcb@lowerbox=\box84
 \tcb@phantombox=\box85
-\c@tcbbreakpart=\count359
-\c@tcblayer=\count360
-\c@tcolorbox@number=\count361
+\c@tcbbreakpart=\count362
+\c@tcblayer=\count363
+\c@tcolorbox@number=\count364
 \tcb@temp=\box86
 \tcb@temp=\box87
 \tcb@temp=\box88
 \tcb@temp=\box89
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count362
-)) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box90
 ) (./pet-convida-lineu.aux
 
@@ -1004,98 +878,44 @@ LaTeX Font Info:    ... okay on input line 615.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen310
-\scratchbox=\box91
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen311
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks55
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 615.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count370
-)
-LaTeX Info: Redefining \ref on input line 615.
-LaTeX Info: Redefining \pageref on input line 615.
-LaTeX Info: Redefining \nameref on input line 615.
+(./pet-convida-lineu.out) (./pet-convida-lineu.out)
+\@outlinefile=\write6
+\openout6 = `pet-convida-lineu.out'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
-tionary-English.dict
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
-ionary-English.dict
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
-y-English.dict
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
-ry-English.dict
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
-ry-English.dict
+) (/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 615.
-Package microtype Info: Applying patch `item' on input line 615.
-Package microtype Info: Applying patch `toc' on input line 615.
-Package microtype Info: Applying patch `eqnum' on input line 615.
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 615.
-
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 615.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-\c@mv@tabular=\count371
-\c@mv@boldtabular=\count372
+\c@mv@tabular=\count366
+\c@mv@boldtabular=\count367
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen312
-\caption@adjustwidth@linewidth=\dimen313
+\caption@adjustwidth@hsize=\dimen320
+\caption@adjustwidth@linewidth=\dimen321
 Package caption Info: End \AtBeginDocument code.
 (./pet-convida-lineu.nav)
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 615.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 615.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 6.0pt on input line 615.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 615.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 615.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 6.0pt on input line 615.
 
@@ -1103,37 +923,30 @@ Overfull \hbox (1.68091pt too wide) in paragraph at lines 615--615
 [][]  
  []
 
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <14.4> not availab
-le
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 616.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <14.4> not available
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 616.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 14.4pt on input line 616.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
-le
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 616.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 616.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 616.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 616.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 616.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 8.0pt on input line 616.
-<config/ufpr-transparent-600px.png, id=14, 602.25pt x 392.46625pt>
+<config/ufpr-transparent-600px.png, id=42, 602.25pt x 392.46625pt>
 File: config/ufpr-transparent-600px.png Graphic file (type png)
 <use config/ufpr-transparent-600px.png>
-Package pdftex.def Info: config/ufpr-transparent-600px.png  used on input line 
-616.
+Package pdftex.def Info: config/ufpr-transparent-600px.png  used on input line 616.
 (pdftex.def)             Requested size: 78.58931pt x 51.21402pt.
-<./config/ufpr-fundo-16x9.jpg, id=16, 481.8pt x 271.0125pt>
+<./config/ufpr-fundo-16x9.jpg, id=44, 481.8pt x 271.0125pt>
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
 Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 616.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <4> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 616.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 616.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 4.0pt on input line 616.
 
@@ -1143,63 +956,38 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./config/ufpr-fundo-16x9.j
-pg> <./config/ufpr-transparent-600px.png>]
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <17.28> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 619.
+{/home/lacf14-dell/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./config/ufpr-fundo-16x9.jpg> <./config/ufpr-transparent-600px.png>]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <17.28> not available
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 619.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 17.28pt on input line 619.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <17.28> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 619.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <17.28> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 619.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 17.28pt on input line 619.
-LaTeX Font Info:    Trying to load font information for OT1+iwonalm on input li
-ne 619.
-(/usr/share/texlive/texmf-dist/tex/latex/iwona/ot1iwonalm.fd
+LaTeX Font Info:    Trying to load font information for OT1+iwonalm on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/iwona/ot1iwonalm.fd
 File: ot1iwonalm.fd 2005/10/05 v1.2 font definition file for OT1/iwonalm (MW)
 )
-LaTeX Font Info:    Trying to load font information for OML+iwonal on input lin
-e 619.
-(/usr/share/texlive/texmf-dist/tex/latex/iwona/omliwonal.fd
+LaTeX Font Info:    Trying to load font information for OML+iwonal on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/iwona/omliwonal.fd
 File: omliwonal.fd 2008/07/22 v0.995 font definition file for OML/iwonal (MW)
 )
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OML/iwonal/m/it/10.95'. Switching off
-(microtype)                protrusion for this font on input line 619.
-
-LaTeX Font Info:    Trying to load font information for OMS+iwonal on input lin
-e 619.
-(/usr/share/texlive/texmf-dist/tex/latex/iwona/omsiwonal.fd
+LaTeX Font Info:    Trying to load font information for OMS+iwonal on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/iwona/omsiwonal.fd
 File: omsiwonal.fd 2008/07/22 v0.995 font definition file for OMS/iwonal (MW)
 )
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OMS/iwonal/m/n/10.95'. Switching off
-(microtype)                protrusion for this font on input line 619.
-
-LaTeX Font Info:    Trying to load font information for OMX+iwonal on input lin
-e 619.
-(/usr/share/texlive/texmf-dist/tex/latex/iwona/omxiwonal.fd
+LaTeX Font Info:    Trying to load font information for OMX+iwonal on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/iwona/omxiwonal.fd
 File: omxiwonal.fd 2008/07/22 v0.995 font definition file for OMX/iwonal (MW)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 619
-.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 619
-.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 619.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
@@ -1213,10 +1001,8 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [2
 
 ]
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 638.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 638.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 638.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
@@ -1232,15 +1018,11 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <10> not available
-
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 663.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 663.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
 (Font)              scaled to size 10.0pt on input line 663.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
-
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 663.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 663.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 663.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
@@ -1267,7 +1049,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [5
 
 ]
-<./img/modelos_regressao.pdf, id=58, 332.01941pt x 196.66473pt>
+<./img/modelos_regressao.pdf, id=85, 332.01941pt x 196.66473pt>
 File: ./img/modelos_regressao.pdf Graphic file (type pdf)
 <use ./img/modelos_regressao.pdf>
 Package pdftex.def Info: ./img/modelos_regressao.pdf  used on input line 725.
@@ -1327,7 +1109,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 845.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 843.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1339,7 +1121,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 861.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 859.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1351,7 +1133,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 907.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 905.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1363,7 +1145,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 948.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 946.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1375,7 +1157,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 951.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 949.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1385,19 +1167,18 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [14
 
 ]
-<./img/animais.png, id=145, 1951.29pt x 1463.4675pt>
+<./img/animais.png, id=171, 1951.29pt x 1463.4675pt>
 File: ./img/animais.png Graphic file (type png)
 <use ./img/animais.png>
-Package pdftex.def Info: ./img/animais.png  used on input line 993.
+Package pdftex.def Info: ./img/animais.png  used on input line 991.
 (pdftex.def)             Requested size: 194.1281pt x 145.59607pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 993.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 991.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 9.0pt on input line 993.
+(Font)              scaled to size 9.0pt on input line 991.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 993.
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 991.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1407,15 +1188,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [15
 
  <./img/animais.png>]
-<./img/animais2.png, id=155, 1951.29pt x 1463.4675pt>
+<./img/animais2.png, id=181, 1951.29pt x 1463.4675pt>
 File: ./img/animais2.png Graphic file (type png)
 <use ./img/animais2.png>
-Package pdftex.def Info: ./img/animais2.png  used on input line 1005.
+Package pdftex.def Info: ./img/animais2.png  used on input line 1003.
 (pdftex.def)             Requested size: 238.3131pt x 178.73482pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1005.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1003.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1427,8 +1207,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/animais2.png>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1022.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1020.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1438,15 +1217,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [17
 
 ]
-<./img/se1_se3.png, id=172, 465.99094pt x 249.93375pt>
+<./img/se1_se3.png, id=198, 465.99094pt x 249.93375pt>
 File: ./img/se1_se3.png Graphic file (type png)
 <use ./img/se1_se3.png>
-Package pdftex.def Info: ./img/se1_se3.png  used on input line 1034.
+Package pdftex.def Info: ./img/se1_se3.png  used on input line 1032.
 (pdftex.def)             Requested size: 303.35269pt x 162.7029pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1034.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1032.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1456,15 +1234,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [18
 
  <./img/se1_se3.png>]
-<./img/se2.png, id=182, 563.85657pt x 250.68657pt>
+<./img/se2.png, id=208, 563.85657pt x 250.68657pt>
 File: ./img/se2.png Graphic file (type png)
 <use ./img/se2.png>
-Package pdftex.def Info: ./img/se2.png  used on input line 1046.
+Package pdftex.def Info: ./img/se2.png  used on input line 1044.
 (pdftex.def)             Requested size: 303.34232pt x 134.8638pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1046.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1044.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1474,15 +1251,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [19
 
  <./img/se2.png>]
-<./img/isol.png, id=193, 1951.29pt x 1463.4675pt>
+<./img/isol.png, id=219, 1951.29pt x 1463.4675pt>
 File: ./img/isol.png Graphic file (type png)
 <use ./img/isol.png>
-Package pdftex.def Info: ./img/isol.png  used on input line 1058.
+Package pdftex.def Info: ./img/isol.png  used on input line 1056.
 (pdftex.def)             Requested size: 238.3131pt x 178.73482pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1058.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1056.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1494,8 +1270,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/isol.png>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1075.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1073.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1505,15 +1280,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [21
 
 ]
-<./img/escov.png, id=210, 1951.29pt x 1463.4675pt>
+<./img/escov.png, id=236, 1951.29pt x 1463.4675pt>
 File: ./img/escov.png Graphic file (type png)
 <use ./img/escov.png>
-Package pdftex.def Info: ./img/escov.png  used on input line 1087.
+Package pdftex.def Info: ./img/escov.png  used on input line 1085.
 (pdftex.def)             Requested size: 238.3131pt x 178.73482pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1087.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1085.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1525,8 +1299,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/escov.png>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1115.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1113.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1536,15 +1309,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [23
 
 ]
-<./img/se_mo.png, id=227, 556.32843pt x 301.125pt>
+<./img/se_mo.png, id=253, 556.32843pt x 301.125pt>
 File: ./img/se_mo.png Graphic file (type png)
 <use ./img/se_mo.png>
-Package pdftex.def Info: ./img/se_mo.png  used on input line 1135.
+Package pdftex.def Info: ./img/se_mo.png  used on input line 1133.
 (pdftex.def)             Requested size: 238.34221pt x 129.00795pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1135.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1133.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1556,8 +1328,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/se_mo.png>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1138.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1136.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1569,8 +1340,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1159.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1157.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1582,8 +1352,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1189.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1187.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1595,8 +1364,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1215.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1213.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1608,8 +1376,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1218.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1216.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1621,8 +1388,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1248.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1247.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1634,8 +1400,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1252.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1251.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1645,15 +1410,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [31
 
 ]
-<./img/count.pdf, id=299, 542.025pt x 144.54pt>
+<./img/count.pdf, id=322, 542.025pt x 144.54pt>
 File: ./img/count.pdf Graphic file (type pdf)
 <use ./img/count.pdf>
-Package pdftex.def Info: ./img/count.pdf  used on input line 1264.
+Package pdftex.def Info: ./img/count.pdf  used on input line 1263.
 (pdftex.def)             Requested size: 411.68689pt x 109.78316pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1264.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1263.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1665,8 +1429,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/count.pdf>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1283.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1282.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1678,8 +1441,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1301.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1300.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1691,8 +1453,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1323.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1322.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1704,8 +1465,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1339.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1338.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1715,30 +1475,17 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [36
 
 ]
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OML/iwonal/m/it/10'. Switching off
-(microtype)                protrusion for this font on input line 1376.
-
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OMS/iwonal/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 1376.
-
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 1376.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 1375.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 1376.
+(Font)              scaled to size 7.0pt on input line 1375.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 1376.
+(Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input line 1375.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 5.0pt on input line 1376.
+(Font)              scaled to size 5.0pt on input line 1375.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1376.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1375.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1750,8 +1497,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1405.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1404.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1761,15 +1507,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [38
 
 ]
-<./img/mzanbi.png, id=359, 1065.22969pt x 295.1025pt>
+<./img/mzanbi.png, id=382, 1065.22969pt x 295.1025pt>
 File: ./img/mzanbi.png Graphic file (type png)
 <use ./img/mzanbi.png>
-Package pdftex.def Info: ./img/mzanbi.png  used on input line 1417.
+Package pdftex.def Info: ./img/mzanbi.png  used on input line 1416.
 (pdftex.def)             Requested size: 411.66696pt x 114.04483pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1417.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1416.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1779,20 +1524,9 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [39
 
  <./img/mzanbi.png>]
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OML/iwonal/m/it/9'. Switching off
-(microtype)                protrusion for this font on input line 1437.
-
-
-Package microtype Warning: I cannot find a protrusion list for font
-(microtype)                `OMS/iwonal/m/n/9'. Switching off
-(microtype)                protrusion for this font on input line 1437.
-
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1437.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1436.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1804,8 +1538,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1462.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1461.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1817,8 +1550,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1466.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1465.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1828,15 +1560,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [42
 
 ]
-<./img/prop.pdf, id=393, 542.025pt x 144.54pt>
+<./img/prop.pdf, id=416, 542.025pt x 144.54pt>
 File: ./img/prop.pdf Graphic file (type pdf)
 <use ./img/prop.pdf>
-Package pdftex.def Info: ./img/prop.pdf  used on input line 1478.
+Package pdftex.def Info: ./img/prop.pdf  used on input line 1477.
 (pdftex.def)             Requested size: 411.68689pt x 109.78316pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1478.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1477.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1848,8 +1579,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/prop.pdf>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1510.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1509.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1861,8 +1591,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1532.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1531.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1872,15 +1601,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [45
 
 ]
-<./img/mbetas.png, id=423, 1091.95453pt x 517.935pt>
+<./img/mbetas.png, id=445, 1091.95453pt x 517.935pt>
 File: ./img/mbetas.png Graphic file (type png)
 <use ./img/mbetas.png>
-Package pdftex.def Info: ./img/mbetas.png  used on input line 1544.
+Package pdftex.def Info: ./img/mbetas.png  used on input line 1543.
 (pdftex.def)             Requested size: 390.00423pt x 184.98648pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1544.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1543.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1889,16 +1617,15 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 
 [46
 
- <./img/mbetas.png>]pdfTeX warning (ext4): destination with the same identifier
- (name{eq.model.geral}) has been already used, duplicate ignored
+ <./img/mbetas.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{eq.model.geral}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1583 \end{frame}
+l.1582 \end{frame}
                   
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1583.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1582.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1910,8 +1637,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1612.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1611.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1921,13 +1647,12 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [48
 
 ]
-Overfull \vbox (3.32347pt too high) detected at line 1640
+Overfull \vbox (11.32347pt too high) detected at line 1639
  []
 
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1640.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1639.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1937,15 +1662,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [49
 
 ]
-<./img/interaction.png, id=458, 1082.54437pt x 406.51875pt>
+<./img/interaction.png, id=480, 1082.54437pt x 406.51875pt>
 File: ./img/interaction.png Graphic file (type png)
 <use ./img/interaction.png>
-Package pdftex.def Info: ./img/interaction.png  used on input line 1652.
+Package pdftex.def Info: ./img/interaction.png  used on input line 1651.
 (pdftex.def)             Requested size: 411.66847pt x 154.59038pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1652.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1651.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1957,8 +1681,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
  <./img/interaction.png>]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1678.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1677.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1970,8 +1693,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1681.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1680.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1983,8 +1705,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1703.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1702.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -1996,8 +1717,7 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 ]
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1712.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1711.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -2007,22 +1727,17 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [54
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 1732.
-(/usr/share/texlive/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
-File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
-s-OsF.
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on input line 1731.
+(/home/lacf14-dell/.TinyTeX/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSans-OsF.
 )
-LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/l/n' in size <10.95> not avail
-able
-(Font)              Font shape `TS1/FiraSans-OsF/light/n' tried instead on inpu
-t line 1732.
+LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/l/n' in size <10.95> not available
+(Font)              Font shape `TS1/FiraSans-OsF/light/n' tried instead on input line 1731.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 10.95pt on input line 1732.
+(Font)              scaled to size 10.95pt on input line 1731.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1732.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1731.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -2032,15 +1747,18 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [55
 
 ]
-<./img/rbras.jpg, id=506, 1284.8pt x 963.6pt>
+<./img/rbras.jpg, id=527, 1284.8pt x 963.6pt>
 File: ./img/rbras.jpg Graphic file (type jpg)
 <use ./img/rbras.jpg>
-Package pdftex.def Info: ./img/rbras.jpg  used on input line 1744.
+Package pdftex.def Info: ./img/rbras.jpg  used on input line 1743.
 (pdftex.def)             Requested size: 281.65704pt x 211.24278pt.
+
+Overfull \vbox (3.36642pt too high) detected at line 1743
+ []
+
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1744.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1743.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -2050,15 +1768,18 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [56
 
  <./img/rbras.jpg>]
-<./img/sinape.jpg, id=515, 540.51938pt x 437.38406pt>
+<./img/sinape.jpg, id=537, 540.51938pt x 437.38406pt>
 File: ./img/sinape.jpg Graphic file (type jpg)
 <use ./img/sinape.jpg>
-Package pdftex.def Info: ./img/sinape.jpg  used on input line 1756.
+Package pdftex.def Info: ./img/sinape.jpg  used on input line 1755.
 (pdftex.def)             Requested size: 260.01544pt x 210.40245pt.
+
+Overfull \vbox (2.5261pt too high) detected at line 1755
+ []
+
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1756.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1755.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -2068,15 +1789,14 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [57
 
  <./img/sinape.jpg>]
-<./img/siepe.jpg, id=524, 538.26094pt x 330.48468pt>
+<./img/siepe.jpg, id=546, 538.26094pt x 330.48468pt>
 File: ./img/siepe.jpg Graphic file (type jpg)
 <use ./img/siepe.jpg>
-Package pdftex.def Info: ./img/siepe.jpg  used on input line 1768.
+Package pdftex.def Info: ./img/siepe.jpg  used on input line 1767.
 (pdftex.def)             Requested size: 303.33774pt x 186.24512pt.
 File: ./config/ufpr-fundo-16x9.jpg Graphic file (type jpg)
 <use ./config/ufpr-fundo-16x9.jpg>
-Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1768.
-
+Package pdftex.def Info: ./config/ufpr-fundo-16x9.jpg  used on input line 1767.
 (pdftex.def)             Requested size: 455.2593pt x 256.08334pt.
 
 Overfull \hbox (1.68091pt too wide) has occurred while \output is active
@@ -2086,42 +1806,35 @@ Overfull \hbox (1.68091pt too wide) has occurred while \output is active
 [58
 
  <./img/siepe.jpg>]
-\tf@nav=\write6
-\openout6 = `pet-convida-lineu.nav'.
+\tf@nav=\write7
+\openout7 = `pet-convida-lineu.nav'.
 
-\tf@toc=\write7
-\openout7 = `pet-convida-lineu.toc'.
+\tf@toc=\write8
+\openout8 = `pet-convida-lineu.toc'.
 
-\tf@snm=\write8
-\openout8 = `pet-convida-lineu.snm'.
+\tf@snm=\write9
+\openout9 = `pet-convida-lineu.snm'.
 
 (./pet-convida-lineu.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package rerunfilecheck Info: File `pet-convida-lineu.out' has not changed.
+(rerunfilecheck)             Checksum: D856805DAE43EE8BE8C9D9DD863247B4;1133.
  ) 
 Here is how much of TeX's memory you used:
- 33488 strings out of 478287
- 678625 string characters out of 5849289
- 951808 words of memory out of 5000000
- 50634 multiletter control sequences out of 15000+600000
- 739521 words of font info for 190 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 99i,15n,117p,1014b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texlive/tex
-mf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/iwona/rm-iwona.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/iw
-ona/mi-iwona.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_iln36p
-.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Light.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pet-convida-lineu.pdf (58 pages, 43306870 bytes).
+ 31505 strings out of 477964
+ 647975 string characters out of 5837872
+ 1876388 words of memory out of 5000000
+ 50852 multiletter control sequences out of 15000+600000
+ 767639 words of font info for 104 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 101i,15n,117p,413b,859s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc}{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/iwona/sy-iwona.enc}{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/iwona/mi-iwona.enc}{/home/lacf14-dell/.TinyTeX/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}</home/lacf14-dell/.TinyTeX/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></home/lacf14-dell/.TinyTeX/texmf-dist/fonts/type1/public/fira/FiraSans-Light.pfb></home/lacf14-dell/.TinyTeX/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb></home/lacf14-dell/.TinyTeX/texmf-dist/fonts/type1/nowacki/iwona/iwonali.pfb></home/lacf14-dell/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on pet-convida-lineu.pdf (58 pages, 43306497 bytes).
 PDF statistics:
  631 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
  198 named destinations out of 1000 (max. 500000)
- 57533 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

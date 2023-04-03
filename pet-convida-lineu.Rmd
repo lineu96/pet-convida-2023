@@ -31,7 +31,7 @@ source("./config/setup.R")
 
 ## Estudos de comportamento animal
 
- - O \textbf{comportamento de um animal} reflete seu \textbf{estado emocionais}.
+ - O \textbf{comportamento de um animal} reflete seu \textbf{estado emocional}.
  
  - Estudos de comportamento animal forneceram informações úteis sobre o bem-estar animal em uma ampla variedade de situações.
 
@@ -139,15 +139,19 @@ knitr::include_graphics("./img/modelos_regressao.pdf")
 
 \beginAHalfColumn
 
- - Dados de comportamento animal.
- 	- Objetivo.
- 	- Tipos de resposta.
- 	- Especificidades dos dados.
- 	
- - Modelos de regressão.
- 	  - Ideia geral.
-    - GAMLSS.
-    - Potencial do GAMLSS para problemas de comportamento animal.
+\textbf{Dados de comportamento animal}
+
+ - Objetivo.
+ - Tipos de resposta.
+ - Especificidades dos dados.
+
+\vspace{0.5cm}
+
+\textbf{Modelos de regressão}
+
+ - Ideia geral.
+ - GAMLSS.
+ - Potencial do GAMLSS para problemas de comportamento animal.
 
 \endColumns
 \beginAHalfColumn
@@ -361,7 +365,7 @@ Para definição de um GAMLSS considere:
 1. Seleção de distribuições compatíveis com o problema.
 2. Ajuste de modelos com o mesmo preditor para todas as distribuições.
 3. Seleção do modelos via medidas de qualidade de ajuste OU análise gráfica.
-4. Busca do menor modelo possível que não difirisse do modelo inicial.
+4. Busca do menor modelo possível que não fosse estatisticamente diferente do modelo inicial.
 5. Interpretação dos resultados. 
 
 # Número de mudanças de postura de orelha
